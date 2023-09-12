@@ -1,0 +1,1906 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 13,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 37,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_60.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_61.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_62.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_63.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_64.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_65.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_66.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_67.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_68.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_69.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_70.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_71.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_72.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_73.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_74.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_75.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_76.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_77.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_78.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_79.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_80.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 13,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_81.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 25,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_82.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 37,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_83.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 49,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_84.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 61,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_85.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 73,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_86.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 85,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_87.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_88.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 109,
+        "w": 10,
+        "h": 10
+      },
+      "rotated": false,
+      "filename": "jianqixuli2_89.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 10,
+        "w": 10
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 10,
+        "h": 10
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.2",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:535a8adc35de0c65f98ac03ef953291a:0fa72cba9c549c721c20be229e51f0a1:2ccf0e6593c1a5a1709f3680c362c799$",
+    "image": "jianqixuli2.png",
+    "size": {
+      "h": 128,
+      "w": 128
+    }
+  }
+}

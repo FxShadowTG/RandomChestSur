@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:enderSword"
+        },
+        "key": {
+            "B": {
+                "data": 0,
+                "item": "minecraft:ender_pearl"
+            },
+            "C": {
+                "data": 0,
+                "item": "minecraft:stick"
+            }
+        },
+        "pattern": [
+            "  B",
+            " B ",
+            "C  "
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:enderSword"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

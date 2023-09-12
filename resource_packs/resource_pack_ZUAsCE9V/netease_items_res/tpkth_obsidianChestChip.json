@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:obsidianChestChip"
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:obsidianChestChip",
+            "register_to_create_menu": true
+        }
+    }
+}

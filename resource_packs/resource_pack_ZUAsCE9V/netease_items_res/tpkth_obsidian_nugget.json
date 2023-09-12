@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:obsidian_nugget"
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:obsidian_nugget",
+            "register_to_create_menu": true
+        }
+    }
+}

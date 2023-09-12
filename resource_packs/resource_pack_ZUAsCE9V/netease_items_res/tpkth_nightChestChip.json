@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:nightChestChip"
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:nightChestChip",
+            "register_to_create_menu": true
+        }
+    }
+}

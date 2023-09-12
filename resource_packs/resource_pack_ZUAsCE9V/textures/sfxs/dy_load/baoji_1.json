@@ -1,0 +1,37 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 8,
+        "h": 16
+      },
+      "rotated": false,
+      "filename": "baoji_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 8
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 8,
+        "h": 16
+      }
+    }
+  ],
+  "meta": {
+    "scale": "1",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:12342ab954d0ac2c80693a565fe4f8de:621c0c135c952f4aad3ac35c6ebaa5e3:4b8f2840c1b4cb1acc234f1a63a97b2e$",
+    "image": "baoji_1.png",
+    "size": {
+      "h": 18,
+      "w": 10
+    }
+  }
+}

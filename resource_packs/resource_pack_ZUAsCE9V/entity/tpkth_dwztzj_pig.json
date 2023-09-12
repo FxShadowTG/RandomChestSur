@@ -1,0 +1,37 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "animation_controllers": [
+                {
+                    "move": "controller.animation.polarbear.move"
+                },
+                {
+                    "baby": "controller.animation.polarbear.baby"
+                }
+            ],
+            "animations": {
+                "baby_transform": "animation.polarbear.baby_transform",
+                "look_at_target": "animation.common.look_at_target",
+                "move": "animation.polarbear.move",
+                "walk": "animation.quadruped.walk"
+            },
+            "geometry": {
+                "default": "geometry.dwztzj_pig"
+            },
+            "identifier": "tpkth:dwztzj_pig",
+            "materials": {
+                "default": "polar_bear"
+            },
+            "render_controllers": [
+                "controller.render.polarbear"
+            ],
+            "scripts": {
+                "scale": "1.2"
+            },
+            "textures": {
+                "default": "textures/entity/dwztzj_pig"
+            }
+        }
+    }
+}

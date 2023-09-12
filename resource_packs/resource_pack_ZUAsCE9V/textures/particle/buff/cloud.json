@@ -1,0 +1,82 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.270000 0.270000 0.270000 1.000000",
+        "time": "0.0"
+      },
+      {
+        "color": "0.140000 0.140000 0.140000 1.000000",
+        "time": "0.2"
+      },
+      {
+        "color": "0.270000 0.270000 0.270000 1.000000",
+        "time": "0.7447368421052631"
+      },
+      {
+        "color": "0.300000 0.300000 0.300000 1.000000",
+        "time": "1.0"
+      }
+    ],
+    "dampingforce": {
+      "value": "3.0"
+    },
+    "direction": {
+      "max": "1.0 0.2 1.0",
+      "min": "-1.0 0.0 -1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "30.0"
+    },
+    "emitterpath": [
+    ],
+    "emitterscale": [
+    ],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "inactivetime": {
+      "value": "20.0"
+    },
+    "numparticles": {
+      "value": "80"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.5 0.5"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "-180.0"
+    },
+    "rotationspeed": {
+      "max": "180.0",
+      "min": "0.0"
+    },
+    "texture": {
+      "name": "textures/particle/buff/cloud"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "1.0"
+    }
+  }
+}

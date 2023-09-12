@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:goldenChestCall"
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:goldenChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

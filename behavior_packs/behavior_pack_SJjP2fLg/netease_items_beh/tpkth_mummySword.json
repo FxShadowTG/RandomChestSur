@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 1500,
+            "netease:customtips": {
+                "value": "被诅咒过的剑，因此附魔能力大大增加"
+            },
+            "netease:weapon": {
+                "attack_damage": 11,
+                "enchantment": 100,
+                "level": 2,
+                "speed": 15,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:mummySword",
+            "register_to_create_menu": true
+        }
+    }
+}

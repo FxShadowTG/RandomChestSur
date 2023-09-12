@@ -1,0 +1,37 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 11,
+        "h": 16
+      },
+      "rotated": false,
+      "filename": "zhiyu_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 11
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 11,
+        "h": 16
+      }
+    }
+  ],
+  "meta": {
+    "scale": "1",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:f8864c0a4a31977b20f043a73353793c:bff111d1089d809524ea5ff0aced8e4b:4e41d6a4e2f06d5f633573090673ab11$",
+    "image": "zhiyu_7.png",
+    "size": {
+      "h": 18,
+      "w": 13
+    }
+  }
+}

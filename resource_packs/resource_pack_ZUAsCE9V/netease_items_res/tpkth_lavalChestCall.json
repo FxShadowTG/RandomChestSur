@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:lavalChestCall"
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:lavalChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

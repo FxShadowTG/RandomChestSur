@@ -1,0 +1,46 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:rainbowRaserSword"
+        },
+        "key": {
+            "A": {
+                "data": 0,
+                "item": "tpkth:whiteRaserSword"
+            },
+            "B": {
+                "data": 0,
+                "item": "tpkth:greenRaserSword"
+            },
+            "C": {
+                "data": 0,
+                "item": "tpkth:blueRaserSword"
+            },
+            "D": {
+                "data": 0,
+                "item": "tpkth:yellowRaserSword"
+            },
+            "E": {
+                "data": 0,
+                "item": "tpkth:purpleRaserSword"
+            },
+            "F": {
+                "data": 0,
+                "item": "tpkth:redRaserSword"
+            }
+        },
+        "pattern": [
+            "ABC",
+            "DEF"
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:rainbowRaserSword"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,1516 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_0.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 23,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_1.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 45,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_2.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 67,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_3.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 89,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_4.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 111,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_5.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 133,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_6.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 155,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_7.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 177,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_8.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 199,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_9.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 221,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_10.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 1,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_11.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 23,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_12.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 45,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_13.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 67,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_14.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 89,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_15.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 111,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_16.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 133,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_17.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 155,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_18.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 177,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_19.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 199,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_20.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 43,
+        "x": 221,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_21.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 1,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_22.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 23,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_23.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 45,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_24.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 67,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_25.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 89,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_26.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 111,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_27.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 133,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_28.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 155,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_29.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 177,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_30.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 199,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_31.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 85,
+        "x": 221,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_32.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 1,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_33.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 23,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_34.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 45,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_35.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 67,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_36.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 89,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_37.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 111,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_38.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 133,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_39.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 155,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_40.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 177,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_41.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 199,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_42.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 127,
+        "x": 221,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_43.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 1,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_44.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 23,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_45.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 45,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_46.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 67,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_47.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 89,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_48.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 111,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_49.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 133,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_50.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 155,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_51.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 177,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_52.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 199,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_53.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 221,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_54.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 211,
+        "x": 1,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_55.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 211,
+        "x": 23,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_56.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 211,
+        "x": 45,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_57.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 211,
+        "x": 67,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_58.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    },
+    {
+      "frame": {
+        "y": 211,
+        "x": 89,
+        "w": 20,
+        "h": 40
+      },
+      "rotated": false,
+      "filename": "leidian_59.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 40,
+        "w": 20
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 20,
+        "h": 40
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.4",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:c07259caeb45fa493fd509d45b6f837e:1d63820c737dd3384b8f9746d9e63594:a0ecce5ec138a9c9494affe4c3c29744$",
+    "image": "staffSkill3.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

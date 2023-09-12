@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:lapisPickaxe"
+        },
+        "key": {
+            "D": {
+                "data": 0,
+                "item": "minecraft:lapis_lazuli"
+            },
+            "E": {
+                "data": 0,
+                "item": "minecraft:stick"
+            }
+        },
+        "pattern": [
+            " DD",
+            " ED",
+            "E  "
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:lapisPickaxe"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

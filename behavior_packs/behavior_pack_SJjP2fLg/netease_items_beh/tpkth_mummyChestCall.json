@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "netease:customtips": {
+                "value": "点击地面后会召唤一只木乃伊宝箱怪"
+            },
+            "netease:egg": {
+                "entity": "tpkth:mummy_chest"
+            }
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:mummyChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

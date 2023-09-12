@@ -1,0 +1,17 @@
+{
+    "Arena.Component.Namespace": "tpkth",
+    "FirstTabSetting": 0,
+    "ShortItemSettings": [
+        "resource_packs\\resource_pack_ZUAsCE9V\\ui",
+        "behavior_packs\\behavior_pack_SJjP2fLg\\Presets",
+        "behavior_packs\\behavior_pack_SJjP2fLg\\Parts",
+        "behavior_packs\\behavior_pack_SJjP2fLg\\BoxData",
+        "resource_packs\\resource_pack_ZUAsCE9V\\effects",
+        "resource_packs\\resource_pack_ZUAsCE9V\\models",
+        "resource_packs\\resource_pack_ZUAsCE9V\\textures"
+    ],
+    "Uluru.autoLayerDict": {
+        "ui0": false
+    },
+    "Uluru.checkSuspectOldUI": true
+}

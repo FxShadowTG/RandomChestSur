@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:foil": false,
+            "minecraft:max_damage": 3000,
+            "minecraft:max_stack_size": 1,
+            "netease:weapon": {
+                "attack_damage": 9,
+                "enchantment": 10,
+                "level": 3,
+                "speed": 6,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:obsidianSword",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 47,
+        "h": 219
+      },
+      "rotated": false,
+      "filename": "1.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 219,
+        "w": 47
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 47,
+        "h": 219
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 50,
+        "w": 47,
+        "h": 219
+      },
+      "rotated": false,
+      "filename": "2.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 219,
+        "w": 47
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 47,
+        "h": 219
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 99,
+        "w": 47,
+        "h": 219
+      },
+      "rotated": false,
+      "filename": "3.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 219,
+        "w": 47
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 47,
+        "h": 219
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 148,
+        "w": 47,
+        "h": 219
+      },
+      "rotated": false,
+      "filename": "4.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 219,
+        "w": 47
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 47,
+        "h": 219
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.3",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:468765ba61db9f02ff72f515abd8e6de:ab3eac193f835e75d570f23357b9856b:8121fd568e8a0ea67e9a823c044cae4e$",
+    "image": "saoji.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

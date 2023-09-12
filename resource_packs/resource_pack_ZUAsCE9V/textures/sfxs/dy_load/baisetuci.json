@@ -1,0 +1,100 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 248,
+        "h": 121
+      },
+      "rotated": false,
+      "filename": "baisetuci1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 121,
+        "w": 248
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 248,
+        "h": 121
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 251,
+        "w": 248,
+        "h": 121
+      },
+      "rotated": false,
+      "filename": "baisetuci2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 121,
+        "w": 248
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 248,
+        "h": 121
+      }
+    },
+    {
+      "frame": {
+        "y": 124,
+        "x": 1,
+        "w": 248,
+        "h": 121
+      },
+      "rotated": false,
+      "filename": "baisetuci3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 121,
+        "w": 248
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 248,
+        "h": 121
+      }
+    },
+    {
+      "frame": {
+        "y": 124,
+        "x": 251,
+        "w": 248,
+        "h": 121
+      },
+      "rotated": false,
+      "filename": "baisetuci4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 121,
+        "w": 248
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 248,
+        "h": 121
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.3",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:532166e1aa6c934ab3be899e5358f961:856b2efec119e7a64a30220d765d9971:f86640e0ae1c9c63e28798057e969c59$",
+    "image": "baisetuci.png",
+    "size": {
+      "h": 512,
+      "w": 512
+    }
+  }
+}

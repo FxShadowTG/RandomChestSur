@@ -1,0 +1,116 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 39,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "1.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 60,
+        "w": 39
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 39,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 42,
+        "w": 39,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "2.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 60,
+        "w": 39
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 39,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 83,
+        "w": 39,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "3.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 60,
+        "w": 39
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 39,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 124,
+        "w": 39,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "4.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 60,
+        "w": 39
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 39,
+        "h": 60
+      }
+    }
+  ],
+  "meta": {
+    "scale": "1",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:d84df00ba386c92c7ad0572832200b92:c7eb1b32293b833394d0ac0389553e46:220fb7e9f573ceb924c6a7a3124ed5c4$",
+    "image": "yidognhougongji.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

@@ -1,0 +1,513 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "tpkth:mummySword",
+                    "type": "item",
+                    "weight": 1
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "tpkth:mummyPickaxe",
+                    "type": "item",
+                    "weight": 1
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "tpkth:mummyChestCall",
+                    "type": "item",
+                    "weight": 1
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:sandstone",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 1,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:sandstone",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 2,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:sandstone",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 3,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:sandstone",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 1,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:sand",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:sand",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:soul_sand",
+                    "type": "item",
+                    "weight": 1
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 3,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:husk_spawn_egg",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:name_tag",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 16,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 1,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:stone_slab",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 3,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:stone_slab4",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 6,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:stone_slab2",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:warped_fungus",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:stone_slab2",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 4,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:stone_slab4",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 1,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:stone_slab3",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:sandstone_stairs",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:smooth_sandstone_stairs",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:red_sandstone_stairs",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:smooth_red_sandstone_stairs",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 5,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:cobblestone_wall",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 12,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 12,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:cobblestone_wall",
+                    "type": "item",
+                    "weight": 3
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "tpkth:bandage",
+                    "type": "item",
+                    "weight": 2
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 6,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:bone",
+                    "type": "item",
+                    "weight": 2
+                },
+                {
+                    "functions": [
+                        {
+                            "count": {
+                                "max": 1,
+                                "min": 1
+                            },
+                            "function": "set_count"
+                        },
+                        {
+                            "data": 0,
+                            "function": "set_data"
+                        }
+                    ],
+                    "name": "minecraft:bone_block",
+                    "type": "item",
+                    "weight": 2
+                }
+            ],
+            "rolls": 2
+        }
+    ]
+}

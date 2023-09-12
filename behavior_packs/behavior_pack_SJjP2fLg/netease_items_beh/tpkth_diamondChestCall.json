@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "netease:customtips": {
+                "value": "点击地面后会召唤一只钻石宝箱怪"
+            },
+            "netease:egg": {
+                "entity": "tpkth:diamond_chest_lv50"
+            }
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:diamondChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

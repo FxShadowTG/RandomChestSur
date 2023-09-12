@@ -1,0 +1,246 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "tpkth:IronFireSword": {
+            "textures": "textures/items/IronFireSword"
+        },
+        "tpkth:alloyBit": {
+            "textures": "textures/items/alloyBit"
+        },
+        "tpkth:bandage": {
+            "textures": "textures/items/bandage"
+        },
+        "tpkth:blueLightSword": {
+            "textures": "textures/items/blueLightSword"
+        },
+        "tpkth:blueRaserSword": {
+            "textures": "textures/items/blueRaserSword"
+        },
+        "tpkth:boneSword": {
+            "textures": "textures/items/boneSword"
+        },
+        "tpkth:coalChestCall": {
+            "textures": "textures/items/coalChestCall"
+        },
+        "tpkth:coalChestChip": {
+            "textures": "textures/items/coalChestChip"
+        },
+        "tpkth:coalSword": {
+            "textures": "textures/items/coalSword"
+        },
+        "tpkth:commonBit": {
+            "textures": "textures/items/commonBit"
+        },
+        "tpkth:commonChestCall": {
+            "textures": "textures/items/commonChestCall"
+        },
+        "tpkth:commonChestChip": {
+            "textures": "textures/items/commonChestChip"
+        },
+        "tpkth:copperPickaxe": {
+            "textures": "textures/items/copperPickaxePro"
+        },
+        "tpkth:copperSword": {
+            "textures": "textures/items/copperSword"
+        },
+        "tpkth:crystalAxe": {
+            "textures": "textures/items/crystalAxe"
+        },
+        "tpkth:crystalSword": {
+            "textures": "textures/items/crystalSword"
+        },
+        "tpkth:diamondChestCall": {
+            "textures": "textures/items/diamondChestCall"
+        },
+        "tpkth:diamondChestChip": {
+            "textures": "textures/items/diamondChestChip"
+        },
+        "tpkth:diamondPickaxe": {
+            "textures": "textures/items/diamondPickaxePro"
+        },
+        "tpkth:dyeBlueSword": {
+            "textures": "textures/items/dyeBlueSword"
+        },
+        "tpkth:dyeGreenSword": {
+            "textures": "textures/items/dyeGreenSword"
+        },
+        "tpkth:dyeOrangeSword": {
+            "textures": "textures/items/dyeOrangeSword"
+        },
+        "tpkth:dyeRedSword": {
+            "textures": "textures/items/dyeRedSword"
+        },
+        "tpkth:dyeSword": {
+            "textures": "textures/items/dyeSword"
+        },
+        "tpkth:dyeYellowSword": {
+            "textures": "textures/items/dyeYellowSword"
+        },
+        "tpkth:emeraldChestCall": {
+            "textures": "textures/items/emeraldChestCall"
+        },
+        "tpkth:emeraldChestChip": {
+            "textures": "textures/items/emeraldChestChip"
+        },
+        "tpkth:emeraldPickaxe": {
+            "textures": "textures/items/emerald_pickaxe"
+        },
+        "tpkth:emeraldSword": {
+            "textures": "textures/items/emerald_sword"
+        },
+        "tpkth:enderPickaxe": {
+            "textures": "textures/items/enderPickaxe"
+        },
+        "tpkth:enderStaff": {
+            "textures": "textures/items/ender_staff"
+        },
+        "tpkth:enderSword": {
+            "textures": "textures/items/enderSword"
+        },
+        "tpkth:evilChestCall": {
+            "textures": "textures/items/evilChestCall"
+        },
+        "tpkth:evilSword": {
+            "textures": "textures/items/evilSword"
+        },
+        "tpkth:fireSword": {
+            "textures": "textures/items/fireSword"
+        },
+        "tpkth:glazePickaxe": {
+            "textures": "textures/items/glazePickaxe"
+        },
+        "tpkth:glazeSword": {
+            "textures": "textures/items/glazeSword"
+        },
+        "tpkth:goldenBlueSword": {
+            "textures": "textures/items/goldenChipBlueSword"
+        },
+        "tpkth:goldenChestCall": {
+            "textures": "textures/items/goldenChestCall"
+        },
+        "tpkth:goldenChestChip": {
+            "textures": "textures/items/goldenChestChip"
+        },
+        "tpkth:goldenChip": {
+            "textures": "textures/items/goldenChip"
+        },
+        "tpkth:goldenPickaxe": {
+            "textures": "textures/items/goldenPickaxePro"
+        },
+        "tpkth:goldenRedSword": {
+            "textures": "textures/items/goldenChipRedSword"
+        },
+        "tpkth:greenRaserSword": {
+            "textures": "textures/items/greenRaserSword"
+        },
+        "tpkth:healthChestCall": {
+            "textures": "textures/items/healthChestCall"
+        },
+        "tpkth:heightEvilSword": {
+            "textures": "textures/items/evilSword"
+        },
+        "tpkth:ironChestCall": {
+            "textures": "textures/items/ironChestCall"
+        },
+        "tpkth:ironChestChip": {
+            "textures": "textures/items/ironChestChip"
+        },
+        "tpkth:jungleChestCall": {
+            "textures": "textures/items/jungleChestCall"
+        },
+        "tpkth:lapisPickaxe": {
+            "textures": "textures/items/lapisPickaxe"
+        },
+        "tpkth:lavalChestCall": {
+            "textures": "textures/items/lavaChestCall"
+        },
+        "tpkth:leafStaff": {
+            "textures": "textures/items/leaf_staff"
+        },
+        "tpkth:lightSquidSword": {
+            "textures": "textures/items/lightSquidSword"
+        },
+        "tpkth:mummyChestCall": {
+            "textures": "textures/items/mummyChestCall"
+        },
+        "tpkth:mummyPickaxe": {
+            "textures": "textures/items/mummyPickaxe"
+        },
+        "tpkth:mummySword": {
+            "textures": "textures/items/mummySword"
+        },
+        "tpkth:mushroomChestCall": {
+            "textures": "textures/items/mushroomChestCall"
+        },
+        "tpkth:mushroomStaff": {
+            "textures": "textures/items/mushroom_staff"
+        },
+        "tpkth:nightChestCall": {
+            "textures": "textures/items/nightChestCall"
+        },
+        "tpkth:nightChestChip": {
+            "textures": "textures/items/nightChestChip"
+        },
+        "tpkth:night_sword": {
+            "textures": "textures/items/night_sword"
+        },
+        "tpkth:obsidianChestCall": {
+            "textures": "textures/items/obsidianChestCall"
+        },
+        "tpkth:obsidianChestChip": {
+            "textures": "textures/items/obsidianChestChip"
+        },
+        "tpkth:obsidianSword": {
+            "textures": "textures/items/obsidian_sword"
+        },
+        "tpkth:obsidian_ingot": {
+            "textures": "textures/items/obsidian_ingot"
+        },
+        "tpkth:obsidian_nugget": {
+            "textures": "textures/items/obsidian_nugget"
+        },
+        "tpkth:obsidian_pickaxe": {
+            "textures": "textures/items/obsidian_pickaxe"
+        },
+        "tpkth:oceanChestCall": {
+            "textures": "textures/items/oceanChestCall"
+        },
+        "tpkth:platinumPickaxe": {
+            "textures": "textures/items/platinumPickaxe"
+        },
+        "tpkth:poisonSword": {
+            "textures": "textures/items/poisonSword"
+        },
+        "tpkth:purpleRaserSword": {
+            "textures": "textures/items/purpleRaserSword"
+        },
+        "tpkth:rainbowChestCall": {
+            "textures": "textures/items/rainbowChestCall"
+        },
+        "tpkth:rainbowRaserSword": {
+            "textures": "textures/items/rainbowRaserSword"
+        },
+        "tpkth:rainbowSword": {
+            "textures": "textures/items/rainbowSword"
+        },
+        "tpkth:redPickaxe": {
+            "textures": "textures/items/redPickaxe"
+        },
+        "tpkth:redRaserSword": {
+            "textures": "textures/items/redRaserSword.png"
+        },
+        "tpkth:shortBlueSword": {
+            "textures": "textures/items/snowballSword"
+        },
+        "tpkth:weightIronSword": {
+            "textures": "textures/items/weightIronSword"
+        },
+        "tpkth:whiteRaserSword": {
+            "textures": "textures/items/whiteRaserSword"
+        },
+        "tpkth:yellowRaserSword": {
+            "textures": "textures/items/yellowRaserSword"
+        }
+    },
+    "texture_name": "atlas.items"
+}

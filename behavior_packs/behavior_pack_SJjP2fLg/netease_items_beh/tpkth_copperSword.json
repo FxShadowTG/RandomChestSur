@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 500,
+            "netease:weapon": {
+                "attack_damage": 6,
+                "enchantment": 5,
+                "level": 1,
+                "speed": 2,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:copperSword",
+            "register_to_create_menu": true
+        }
+    }
+}

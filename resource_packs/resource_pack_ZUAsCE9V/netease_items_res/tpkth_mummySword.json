@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:mummySword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:mummySword",
+            "register_to_create_menu": true
+        }
+    }
+}

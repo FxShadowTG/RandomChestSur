@@ -1,0 +1,1276 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "batixuli_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.6",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:e06376bfc1c49433f0053c1c1e7b3e49:c3f2c800fb2a842ca0269f1459f01115:4af60ddf228366c5535a628033644ebd$",
+    "image": "batixuli.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

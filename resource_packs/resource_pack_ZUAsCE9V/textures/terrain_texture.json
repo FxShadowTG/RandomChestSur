@@ -1,0 +1,48 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "tpkth:BaseChestPointBlock": {
+            "textures": "textures/blocks/BaseChestPointBlock"
+        },
+        "tpkth:BaseHornChestPointBlock": {
+            "textures": "textures/blocks/BaseHornChestPointBlock"
+        },
+        "tpkth:BaseHornChestPointBlock2": {
+            "textures": "textures/blocks/BaseHornChestPointBlock2"
+        },
+        "tpkth:BaseHornChestPointBlock3": {
+            "textures": "textures/blocks/BaseHornChestPointBlock3"
+        },
+        "tpkth:BaseHornChestPointBlock4": {
+            "textures": "textures/blocks/BaseHornChestPointBlock4"
+        },
+        "tpkth:BaseLineChestPointBlock": {
+            "textures": "textures/blocks/BaseLineChestPointBlock"
+        },
+        "tpkth:BaseLineChestPointBlock2": {
+            "textures": "textures/blocks/BaseLineChestPointBlock2"
+        },
+        "tpkth:BaseLineChestPointBlock3": {
+            "textures": "textures/blocks/BaseLineChestPointBlock3"
+        },
+        "tpkth:BaseLineChestPointBlock4": {
+            "textures": "textures/blocks/BaseLineChestPointBlock4"
+        },
+        "tpkth:chestPointBlock": {
+            "textures": "textures/blocks/chestPointBlock"
+        },
+        "tpkth:coalChangeBlock": {
+            "textures": "textures/blocks/coalChangeBlock"
+        },
+        "tpkth:coalChangeBlock2": {
+            "textures": "textures/blocks/coalChangeBlock2"
+        },
+        "tpkth:common_chest_v2": {
+            "textures": "textures/blocks/common_chest_lv2"
+        },
+        "tpkth:weather_block": {
+            "textures": "textures/blocks/weather_block"
+        }
+    },
+    "texture_name": "atlas.terrain"
+}

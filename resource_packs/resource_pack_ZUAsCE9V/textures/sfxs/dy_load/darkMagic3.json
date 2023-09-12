@@ -1,0 +1,1066 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "zhaohuanquan_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.3",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:af34a7c29f0834758a8030ee9e03da89:eb7f73374cc830ce545cd3679c58dac2:d78ad35596656d12788ee1cf1554480f$",
+    "image": "darkMagic3.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

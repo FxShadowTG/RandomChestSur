@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:diamondChestCall"
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:diamondChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

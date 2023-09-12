@@ -1,0 +1,25 @@
+{
+  "frameeffect": {
+    "scale": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "texture": "textures/sfxs/dy_load/staffSkill5",
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 120,
+    "face_camera": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true
+  }
+}

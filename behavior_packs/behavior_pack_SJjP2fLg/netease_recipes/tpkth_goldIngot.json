@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:goldIngot"
+        },
+        "key": {
+            "A": {
+                "data": 0,
+                "item": "tpkth:goldenChip"
+            }
+        },
+        "pattern": [
+            "AAA",
+	    "AAA",
+	    "AAA"
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "minecraft:gold_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

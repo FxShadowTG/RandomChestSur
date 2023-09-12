@@ -1,0 +1,48 @@
+{
+  "Source": "import",
+  "CreateVersion": "2.7.0.395512",
+  "EditVersion": "2.8.0.459165",
+  "OldEditCount": 0,
+  "NewEditCount": 130,
+  "OldComponents": [],
+  "Account": "",
+  "UserName": "",
+  "UserId": "",
+  "Id": "20fc73fab96146928eda8dde7e34b9b7",
+  "EditType": 1,
+  "IsMap": true,
+  "CreateNew": false,
+  "CodeEnable": false,
+  "CanPublishResourceComponent": true,
+  "EditName": "随机方块空岛生存[无限宝箱版]",
+  "GameType": 1,
+  "WorldType": 2,
+  "Seed": "957370590",
+  "BlockNums": [
+    0,
+    0
+  ],
+  "BornPoint": [
+    0,
+    0,
+    0
+  ],
+  "SaveBackMapPath": "",
+  "SaveBackAddOnPath": "",
+  "ResourceIds": [
+    "4664518183657069229",
+    "4664518464382014958"
+  ],
+  "EditAddOnPaths": [],
+  "EditMaterialPaths": [],
+  "EditLogFilePath": "",
+  "ServerName": "",
+  "StudioPort": 12111,
+  "DCWebUrl": "https://x19apigatewayexpr.nie.netease.com",
+  "ShowGuide": false,
+  "AssertCacheDir": "",
+  "ElkUrl": "",
+  "ShowGpuDriverTips": false,
+  "StudioTempPath": "",
+  "EditorResourcePackPath": ""
+}

@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+        "components": {
+            "minecraft:block_light_absorption": {
+                "value": 16
+            },
+            "minecraft:block_light_emission": {
+                "emission": 1.0
+            },
+            "minecraft:destroy_time": 1.0,
+            "minecraft:explosion_resistance": {
+                "value": 1.0
+            },
+            "minecraft:map_color": {
+                "color": "#181717"
+            },
+            "netease:render_layer": {
+                "value": "opaque"
+            },
+            "netease:solid": {
+                "value": true
+            },
+            "netease:tier": {
+                "destroy_special": true,
+                "digger": "pickaxe",
+                "level": 1
+            }
+        },
+        "description": {
+            "identifier": "tpkth:coalChangeBlock",
+            "register_to_creative_menu": true
+        }
+    }
+}

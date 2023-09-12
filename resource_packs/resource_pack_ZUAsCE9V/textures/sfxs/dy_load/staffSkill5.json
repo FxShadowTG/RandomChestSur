@@ -1,0 +1,416 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_0.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 67,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_1.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 133,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_2.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 67,
+        "x": 67,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_3.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 67,
+        "x": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_4.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 133,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_5.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 67,
+        "x": 133,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_6.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_7.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 133,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_8.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 67,
+        "x": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_9.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 67,
+        "x": 67,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_10.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 67,
+        "x": 133,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_11.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 67,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_12.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_13.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 67,
+        "x": 67,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_14.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 67,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "filename": "mclans_skill_staff_b3_1_15.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 64,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 64,
+        "h": 64
+      }
+    }
+  ],
+  "meta": {
+    "scale": "1",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:bbfb59d2f1d36bf24ceab1ea4df9ffef:f06004ff8f395eaca29dcbed1ebdbc62:32e4870332b6ec8a331bc65231659149$",
+    "image": "staffSkill5.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

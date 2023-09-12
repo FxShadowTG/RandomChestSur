@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 200,
+            "netease:weapon": {
+                "attack_damage": 6,
+                "enchantment": 100,
+                "level": 2,
+                "speed": 10,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:goldenBlueSword",
+            "register_to_create_menu": true
+        }
+    }
+}

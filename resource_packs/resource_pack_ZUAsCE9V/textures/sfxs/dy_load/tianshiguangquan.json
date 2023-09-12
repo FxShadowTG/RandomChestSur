@@ -1,0 +1,1516 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_0.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_1.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_2.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_3.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_4.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_5.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_6.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_7.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_8.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_9.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_10.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_11.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_12.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_13.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_14.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_15.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_16.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_17.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_18.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_19.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_20.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_21.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_22.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_23.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_24.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_25.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_26.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_27.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_28.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_29.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_30.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_31.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_32.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_33.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_34.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_35.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_36.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_37.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_38.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_39.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_40.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_41.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_42.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_43.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_44.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_45.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_46.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_47.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_48.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_49.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_50.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_51.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_52.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_53.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_54.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_55.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_56.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_57.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_58.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "tianshiguangquan_59.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.075",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:6b01a7a93c020a4ac2fdffa1049efa67:84c5f21f3732b81dc777f979fab6b06a:4f8599b5e9151b7fb2c02e8bfb12d175$",
+    "image": "tianshiguangquan.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

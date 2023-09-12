@@ -1,0 +1,1276 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 129,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 161,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 129,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 161,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 193,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 225,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 1,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 33,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 65,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "frame": {
+        "y": 225,
+        "x": 97,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "filename": "guagnqiangxuli_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 30,
+        "w": 30
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 30,
+        "h": 30
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.3",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:3fad1c6bd3e16a18ac4d590e10d1798a:d29bbd96dbb2f35b7984a00b35725bfb:47c84ee923319f8c50b5c89300cee23d$",
+    "image": "guangqiangxuli.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

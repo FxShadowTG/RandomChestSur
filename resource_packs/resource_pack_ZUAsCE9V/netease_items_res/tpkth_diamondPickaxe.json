@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:diamondPickaxe"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:diamondPickaxe",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 3,
+            "netease:weapon": {
+                "attack_damage": 50,
+                "enchantment": 999,
+                "level": 3,
+                "speed": 20,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:glazeSword",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 11,
+        "h": 16
+      },
+      "rotated": false,
+      "filename": "zhongdu_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 16,
+        "w": 11
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 11,
+        "h": 16
+      }
+    }
+  ],
+  "meta": {
+    "scale": "1",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:da8c84bcf30edadfad00344a9a4aafad:d2c9e18f5dcf07901c9d2b39ae88e6cc:12f770dfb39172c5975ea62060cbe867$",
+    "image": "zhongdu_2.png",
+    "size": {
+      "h": 18,
+      "w": 13
+    }
+  }
+}

@@ -1,0 +1,1276 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongheiselizi_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.14",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:870f581bea10ffcf9e26ce637d14cbe1:ce5debee49fb37e98c6fe03060e49a7e:220dc1dedf1dfbd72f2f31f5b6f4c0f4$",
+    "image": "hongheiselizi.png",
+    "size": {
+      "h": 128,
+      "w": 128
+    }
+  }
+}

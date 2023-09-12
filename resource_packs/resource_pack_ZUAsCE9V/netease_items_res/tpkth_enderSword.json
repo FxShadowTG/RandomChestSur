@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:enderSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:enderSword",
+            "register_to_create_menu": true
+        }
+    }
+}

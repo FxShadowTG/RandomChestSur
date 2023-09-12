@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:crystalAxe"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:crystalAxe",
+            "register_to_create_menu": true
+        }
+    }
+}

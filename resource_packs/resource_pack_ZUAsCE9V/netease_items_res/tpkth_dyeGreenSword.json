@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:dyeGreenSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:dyeGreenSword",
+            "register_to_create_menu": true
+        }
+    }
+}

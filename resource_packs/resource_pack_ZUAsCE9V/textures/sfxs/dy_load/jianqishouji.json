@@ -1,0 +1,667 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 101,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "jianqishouji_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.35",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:5377adce23adb93fbdbb786698cc5112:c6f001d3c15145482ecc0038e55bbd71:983df19b45accf1b5033b4c687da14ef$",
+    "image": "jianqishouji.png",
+    "size": {
+      "h": 128,
+      "w": 128
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 94,
+        "h": 438
+      },
+      "rotated": false,
+      "filename": "1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 438,
+        "w": 94
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 94,
+        "h": 438
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 94,
+        "h": 438
+      },
+      "rotated": false,
+      "filename": "2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 438,
+        "w": 94
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 94,
+        "h": 438
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 193,
+        "w": 94,
+        "h": 438
+      },
+      "rotated": false,
+      "filename": "3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 438,
+        "w": 94
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 94,
+        "h": 438
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 289,
+        "w": 94,
+        "h": 438
+      },
+      "rotated": false,
+      "filename": "4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 438,
+        "w": 94
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 94,
+        "h": 438
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.6",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:0ff2b92d23e99ec600f7f7875efe462a:ab3eac193f835e75d570f23357b9856b:8121fd568e8a0ea67e9a823c044cae4e$",
+    "image": "heisesaoji.png",
+    "size": {
+      "h": 512,
+      "w": 512
+    }
+  }
+}

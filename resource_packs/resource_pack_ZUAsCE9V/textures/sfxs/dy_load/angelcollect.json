@@ -1,0 +1,1276 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 53,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 105,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 157,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 209,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 261,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 313,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 365,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 417,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 1,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 53,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 105,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 157,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 209,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 261,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 313,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 365,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 53,
+        "x": 417,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 1,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 53,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 105,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 157,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 209,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 261,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 313,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 365,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 105,
+        "x": 417,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 1,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 53,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 105,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 157,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 209,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 261,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 313,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 365,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 157,
+        "x": 417,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 1,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 53,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 105,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 157,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 209,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 261,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 313,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 365,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 209,
+        "x": 417,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 1,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 53,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 105,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 157,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 209,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 261,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 313,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 365,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 261,
+        "x": 417,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 313,
+        "x": 1,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 313,
+        "x": 53,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 313,
+        "x": 105,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 313,
+        "x": 157,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 313,
+        "x": 209,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "frame": {
+        "y": 313,
+        "x": 261,
+        "w": 50,
+        "h": 50
+      },
+      "rotated": false,
+      "filename": "angelcollect_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 50,
+        "w": 50
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 50,
+        "h": 50
+      }
+    }
+  ],
+  "meta": {
+    "scale": "1",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:6723a201f7c9f4b5d9d2b57621b5e1c2:228bbc56ad770091f944f8ab485935fd:017cab4a58672915a4a4ce666cb8dabf$",
+    "image": "angelcollect.png",
+    "size": {
+      "h": 512,
+      "w": 512
+    }
+  }
+}

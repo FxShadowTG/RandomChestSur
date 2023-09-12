@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:goldenPickaxe"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:goldenPickaxe",
+            "register_to_create_menu": true
+        }
+    }
+}

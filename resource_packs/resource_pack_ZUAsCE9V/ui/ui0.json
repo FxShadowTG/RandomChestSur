@@ -1,0 +1,198 @@
+{
+   "main" : {
+      "controls" : [
+         {
+            "panel" : {
+               "alpha" : "@ui0.progressBarAnimation",
+               "controls" : [
+                  {
+                     "topButton@common.button" : {
+                        "$control_alpha" : 1.0,
+                        "$default_texture" : "textures/ui/dressing_room_capes",
+                        "$hover_texture" : "textures/ui/sidebar_icons/dressing_room_capes",
+                        "$is_new_nine_slice" : false,
+                        "$label_color" : [ 1, 1, 1 ],
+                        "$label_font_scale_factor" : 1.0,
+                        "$label_font_size" : "large",
+                        "$label_layer" : 3,
+                        "$label_offset" : [ 0, 0 ],
+                        "$label_text" : "",
+                        "$nine_slice_buttom" : 0,
+                        "$nine_slice_left" : 0,
+                        "$nine_slice_right" : 0,
+                        "$nine_slice_top" : 0,
+                        "$nineslice_size" : [ 0, 0, 0, 0 ],
+                        "$pressed_button_name" : "%netease_editor_template_namespace.click",
+                        "$pressed_texture" : "textures/ui/dressing_room_capes",
+                        "$texture_layer" : 2,
+                        "bindings" : [
+                           {
+                              "binding_collection_name" : "",
+                              "binding_condition" : "always_when_visible",
+                              "binding_type" : "collection_details"
+                           }
+                        ],
+                        "button_mappings" : [],
+                        "controls" : [
+                           {
+                              "default@netease_editor_template_namespace.default" : {}
+                           },
+                           {
+                              "hover@netease_editor_template_namespace.hover" : {}
+                           },
+                           {
+                              "pressed@netease_editor_template_namespace.pressed" : {}
+                           },
+                           {
+                              "button_label@netease_editor_template_namespace.button_label" : {}
+                           },
+                           {
+                              "topName" : {
+                                 "anchor_from" : "left_middle",
+                                 "color" : [ 1.0, 1.0, 1.0 ],
+                                 "font_type" : "default",
+                                 "offset" : [ 82.50, 0.50 ],
+                                 "size" : [ 115, 21 ],
+                                 "text" : "作者: 残幻影\n分数: 666",
+                                 "type" : "label"
+                              }
+                           }
+                        ],
+                        "default_control" : "default",
+                        "draggable" : "both",
+                        "hover_control" : "hover",
+                        "is_handle_button_move_event" : true,
+                        "layer" : 2,
+                        "offset" : [ 182.0, 7.0 ],
+                        "pressed_control" : "pressed",
+                        "size" : [ 22, 22 ],
+                        "type" : "button"
+                     }
+                  },
+                  {
+                     "attackLogo" : {
+                        "clip_direction" : "left",
+                        "clip_ratio" : 0.0,
+                        "controls" : [
+                           {
+                              "attack" : {
+                                 "font_type" : "unicode",
+                                 "layer" : 1,
+                                 "offset" : [ 52.0, 0.50 ],
+                                 "size" : [ 88, 11 ],
+                                 "text" : "我的攻击 + 0",
+                                 "type" : "label"
+                              }
+                           }
+                        ],
+                        "layer" : 1,
+                        "offset" : [ -146.0, 12.0 ],
+                        "size" : [ 12, 12 ],
+                        "texture" : "textures/ui/attackLogo",
+                        "type" : "image"
+                     }
+                  },
+                  {
+                     "scoreLogo" : {
+                        "clip_direction" : "left",
+                        "clip_ratio" : 0.0,
+                        "controls" : [
+                           {
+                              "score" : {
+                                 "font_type" : "unicode",
+                                 "layer" : 1,
+                                 "offset" : [ -52.50, 0.50 ],
+                                 "size" : [ 87, 11 ],
+                                 "text" : "0 : 我的分数",
+                                 "text_alignment" : "right",
+                                 "type" : "label"
+                              }
+                           },
+                           {
+                              "doubleScoreLogo" : {
+                                 "clip_direction" : "left",
+                                 "clip_ratio" : 0.0,
+                                 "layer" : 1,
+                                 "size" : [ 14.50, 14.0 ],
+                                 "texture" : "textures/ui/doubleScoreMachine",
+                                 "type" : "image"
+                              }
+                           }
+                        ],
+                        "layer" : 1,
+                        "offset" : [ 161.0, 12.50 ],
+                        "size" : [ 12, 12 ],
+                        "texture" : "textures/ui/scoreLogo",
+                        "type" : "image"
+                     }
+                  },
+                  {
+                     "progress_bar" : {
+                        "$clip_direction" : "left",
+                        "$clip_ratio" : 0.0,
+                        "$is_new_nine_slice" : false,
+                        "$nine_slice_buttom" : 0,
+                        "$nine_slice_left" : 0,
+                        "$nine_slice_right" : 0,
+                        "$nine_slice_top" : 0,
+                        "$nineslice_size" : [ 0, 0, 0, 0 ],
+                        "$progress_bar_empty_texture" : "textures/ui/empty_progress_bar",
+                        "$progress_bar_filled_texture" : "textures/ui/filled_progress_bar",
+                        "controls" : [
+                           {
+                              "countdownTime" : {
+                                 "controls" : [],
+                                 "font_type" : "unicode",
+                                 "layer" : 1,
+                                 "offset" : [ -3.0, 13.0 ],
+                                 "size" : [ 120, 12 ],
+                                 "text" : "下次刷新时间还有 ? 秒",
+                                 "text_alignment" : "center",
+                                 "type" : "label"
+                              }
+                           },
+                           {
+                              "empty_progress_bar@netease_editor_template_namespace.empty_progress_bar" : {
+                                 "color" : [ 0.4588235294117647, 0.3294117647058823, 0.0 ],
+                                 "layer" : 2
+                              }
+                           },
+                           {
+                              "filled_progress_bar@netease_editor_template_namespace.filled_progress_bar" : {
+                                 "color" : [ 1.0, 0.7764705882352941, 0.2039215686274510 ],
+                                 "layer" : 3
+                              }
+                           }
+                        ],
+                        "layer" : 1,
+                        "offset" : [ 8.50, 1.0 ],
+                        "size" : [ 317, 9 ],
+                        "type" : "panel"
+                     }
+                  }
+               ],
+               "layer" : 5,
+               "offset" : [ "0.0%y+0.0px", "-123.0%x+0.0px" ],
+               "size" : [ "0.0%y+100.0px", 0.0 ],
+               "type" : "panel"
+            }
+         }
+      ],
+      "type" : "screen"
+   },
+   "namespace" : "ui0",
+   "progressBarAnimation" : {
+      "anim_type" : "alpha",
+      "duration" : 1.0,
+      "from" : 0.0,
+      "next" : "@ui0.progressBarAnimation",
+      "to" : 1.0
+   },
+   "startAction" : {
+      "anim_type" : "alpha",
+      "duration" : 3.0,
+      "from" : 0.0,
+      "next" : "@ui0.startAction",
+      "to" : 1.0
+   }
+}

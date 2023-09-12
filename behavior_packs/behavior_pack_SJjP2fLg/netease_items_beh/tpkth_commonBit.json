@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 3000,
+            "netease:customtips": {
+                "value": "有百分之十的几率一键挖掘刷新区的所有方块"
+            },
+            "netease:weapon": {
+                "attack_damage": 4,
+                "enchantment": 5,
+                "level": 3,
+                "speed": 10,
+                "type": "pickaxe"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:commonBit",
+            "register_to_create_menu": true
+        }
+    }
+}

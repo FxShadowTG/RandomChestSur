@@ -1,0 +1,436 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 51,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 101,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 151,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 201,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 51,
+        "x": 1,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 51,
+        "x": 51,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 51,
+        "x": 101,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 51,
+        "x": 151,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 51,
+        "x": 201,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 101,
+        "x": 1,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 101,
+        "x": 51,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 101,
+        "x": 101,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 101,
+        "x": 151,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 101,
+        "x": 201,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 151,
+        "x": 1,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 151,
+        "x": 51,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 151,
+        "x": 101,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 151,
+        "x": 151,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "frame": {
+        "y": 151,
+        "x": 151,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "filename": "kuloubaozha2_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 48,
+        "h": 48
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.48",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:fcdb2697021720e18c99124556afa18f:c8afb3669e15d71d6e46b7ae6845d579:70125114e856895f00008f6e0543c62e$",
+    "image": "darkMagic2_1.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

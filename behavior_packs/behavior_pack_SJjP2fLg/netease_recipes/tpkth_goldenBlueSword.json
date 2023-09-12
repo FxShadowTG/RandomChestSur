@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:goldenBlueSword"
+        },
+        "key": {
+            "B": {
+                "data": 0,
+                "item": "minecraft:blue_dye"
+            },
+            "C": {
+                "data": 0,
+                "item": "minecraft:golden_sword"
+            },
+            "D": {
+                "data": 0,
+                "item": "tpkth:goldenChip"
+            },
+            "E": {
+                "data": 0,
+                "item": "minecraft:stick"
+            }
+        },
+        "pattern": [
+            " DB",
+            " CD",
+            "E  "
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:goldenBlueSword"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

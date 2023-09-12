@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:shortBlueSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:shortBlueSword",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 68,
+        "h": 224
+      },
+      "rotated": false,
+      "filename": "bianzidaji2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 224,
+        "w": 68
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 68,
+        "h": 224
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 71,
+        "w": 68,
+        "h": 224
+      },
+      "rotated": false,
+      "filename": "bianzidaji3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 224,
+        "w": 68
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 68,
+        "h": 224
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 141,
+        "w": 68,
+        "h": 224
+      },
+      "rotated": false,
+      "filename": "bianzidaji4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 224,
+        "w": 68
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 68,
+        "h": 224
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.6",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:8f26d3d748f78c8c8d9ba5f6d90dd45f:b8471067145a29e06a85fc9841e0b3a3:366b460c1080392f24451ff9ce509369$",
+    "image": "bianzidaji.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

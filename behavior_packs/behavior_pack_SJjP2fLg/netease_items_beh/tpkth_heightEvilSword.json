@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 1500,
+            "netease:weapon": {
+                "attack_damage": 17,
+                "enchantment": 15,
+                "level": 2,
+                "speed": 15,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:heightEvilSword",
+            "register_to_create_menu": true
+        }
+    }
+}

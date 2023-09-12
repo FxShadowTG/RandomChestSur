@@ -1,0 +1,99 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 0,
+        "x": 0,
+        "w": 256,
+        "h": 160
+      },
+      "rotated": false,
+      "filename": "chongci-0\u526f\u672c.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 160,
+        "w": 256
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 256,
+        "h": 160
+      }
+    },
+    {
+      "frame": {
+        "y": 160,
+        "x": 0,
+        "w": 256,
+        "h": 160
+      },
+      "rotated": false,
+      "filename": "chongci-1\u526f\u672c.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 160,
+        "w": 256
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 256,
+        "h": 160
+      }
+    },
+    {
+      "frame": {
+        "y": 0,
+        "x": 256,
+        "w": 256,
+        "h": 160
+      },
+      "rotated": false,
+      "filename": "chongci-2\u526f\u672c.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 160,
+        "w": 256
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 256,
+        "h": 160
+      }
+    },
+    {
+      "frame": {
+        "y": 160,
+        "x": 256,
+        "w": 256,
+        "h": 160
+      },
+      "rotated": false,
+      "filename": "chongci-3\u526f\u672c.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 160,
+        "w": 256
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 256,
+        "h": 160
+      }
+    }
+  ],
+  "meta": {
+    "scale": "1",
+    "format": "RGBA8888",
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "spritesheet.png",
+    "size": {
+      "h": 320,
+      "w": 512
+    }
+  }
+}

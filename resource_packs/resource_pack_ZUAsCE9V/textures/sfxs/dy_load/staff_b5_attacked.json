@@ -1,0 +1,2266 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_0.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_1.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_2.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_3.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_4.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_5.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_6.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_7.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_8.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_9.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_10.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_11.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_12.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_13.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_14.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_15.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_16.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_17.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_18.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 25,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_19.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_20.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_21.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_22.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_23.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_24.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_25.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_26.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_27.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_28.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_29.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_30.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_31.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_32.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_33.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_34.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_35.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_36.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_37.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_38.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 73,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_39.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_40.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_41.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_42.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_43.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_44.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_45.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_46.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_47.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_48.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_49.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_50.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_51.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_52.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_53.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_54.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_55.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_56.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_57.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_58.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 121,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_59.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_60.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_61.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_62.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_63.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_64.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_65.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_66.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_67.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_68.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 145,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_69.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_70.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_71.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_72.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_73.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_74.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_75.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_76.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_77.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_78.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 169,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_79.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 1,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_80.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 25,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_81.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 49,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_82.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 73,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_83.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 97,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_84.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 121,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_85.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 145,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_86.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 169,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_87.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 193,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_88.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "frame": {
+        "y": 193,
+        "x": 217,
+        "w": 22,
+        "h": 22
+      },
+      "rotated": false,
+      "filename": "staff_b5_attacked_89.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 22,
+        "w": 22
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 22,
+        "h": 22
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.22",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:23efda88628406e542af849cf500680c:2f05fda60abc61d90c4504ef173fcfcc:f804867ebb65672a8ebdf1236845cb73$",
+    "image": "staff_b5_attacked.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:coalSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:coalSword",
+            "register_to_create_menu": true
+        }
+    }
+}

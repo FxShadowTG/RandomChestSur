@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:fireSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:fireSword",
+            "register_to_create_menu": true
+        }
+    }
+}

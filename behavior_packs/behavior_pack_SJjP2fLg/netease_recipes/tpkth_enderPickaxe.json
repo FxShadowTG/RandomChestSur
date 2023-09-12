@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:enderPickaxe"
+        },
+        "key": {
+            "D": {
+                "data": 0,
+                "item": "minecraft:ender_pearl"
+            },
+            "E": {
+                "data": 0,
+                "item": "minecraft:stick"
+            }
+        },
+        "pattern": [
+            " DD",
+            " ED",
+            "E  "
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:enderSword"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

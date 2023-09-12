@@ -1,0 +1,25 @@
+{
+  "frameeffect": {
+    "scale": [
+      1.0,
+      2.0,
+      1.0
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "texture": "textures/sfxs/dy_load/pizhan",
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 60,
+    "face_camera": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": false,
+    "loop": true
+  }
+}

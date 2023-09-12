@@ -1,0 +1,27 @@
+{
+    "version": "1.2.0",
+    "description": {
+        "file_type": "bind",
+        "model": "bedrock:dwztzj_zombie",
+        "model_type": "bedrock"
+    },
+    "model": {
+        "bedrock:dwztzj_zombie": {
+            "bind": {
+                "default": {}
+            },
+            "animation": {
+                "": "default"
+            },
+            "sounds": {
+                "default": []
+            },
+            "animation_speed": {}
+        }
+    },
+    "editor": {
+        "show": {
+            "default": true
+        }
+    }
+}

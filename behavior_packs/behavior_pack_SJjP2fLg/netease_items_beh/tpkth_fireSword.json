@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:foil": false,
+            "minecraft:max_damage": 1500,
+            "minecraft:max_stack_size": 1,
+            "netease:weapon": {
+                "attack_damage": 5,
+                "enchantment": 10,
+                "level": 2,
+                "speed": 3,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:fireSword",
+            "register_to_create_menu": true
+        }
+    }
+}

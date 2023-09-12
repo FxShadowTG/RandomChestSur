@@ -1,0 +1,625 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 21,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 41,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 61,
+        "x": 101,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 1,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 21,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 41,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 61,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 81,
+        "w": 18,
+        "h": 18
+      },
+      "rotated": false,
+      "filename": "hongheisebaozha_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 18,
+        "w": 18
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 18,
+        "h": 18
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.18",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:e8e1bc22699d87dc8413125f4674c633:ce5635a277453a2157cd702bfa9c7335:21a705aceb9475976b673a80a2a55094$",
+    "image": "hongheisebaozha.png",
+    "size": {
+      "h": 128,
+      "w": 128
+    }
+  }
+}

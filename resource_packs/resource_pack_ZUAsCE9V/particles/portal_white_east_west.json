@@ -1,0 +1,72 @@
+{
+  "particle_effect": {
+    "description": {
+      "basic_render_parameters": {
+        "material": "particles_alpha",
+        "texture": "textures/particle/particles"
+      },
+      "identifier": "minecraft:portal_white_east_west"
+    },
+    "components": {
+      "minecraft:particle_appearance_billboard": {
+        "uv": {
+          "uv_size": [
+            8,
+            8
+          ],
+          "texture_height": 128,
+          "uv": [
+            "Math.round(variable.particle_random_3*8)*8",
+            0
+          ],
+          "texture_width": 128
+        },
+        "facing_camera_mode": "lookat_xyz",
+        "size": [
+          "(variable.particle_random_2 * 0.02 + 0.05) * variable.particle_age / variable.particle_lifetime",
+          "(variable.particle_random_2 * 0.02 + 0.05) * variable.particle_age / variable.particle_lifetime"
+        ]
+      },
+      "minecraft:particle_kill_plane": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "minecraft:particle_appearance_tinting": {
+        "color": [
+          "variable.particle_random_1 * 0.4 + 0.6",
+          "variable.particle_random_1 * 0.4 + 0.6",
+          "variable.particle_random_1 * 0.4 + 0.6",
+          1.0
+        ]
+      },
+      "minecraft:emitter_shape_point": {
+        "direction": ["variable.particle_random_2 < 0.5 ? math.random(-1.5, -0.5) : math.random(0.5, 1.5)", -1, 0],
+        "offset": [
+          "variable.particle_random_2 < 0.5 ? math.random(-2.5, -1.5) : math.random(1.5, 2.5)",
+          "math.random(-0.5f, 0.5f) + 1.25", "math.random(-0.5f, 0.5f)"
+        ]
+      },
+      "minecraft:particle_initial_speed": "1",
+      "minecraft:particle_motion_dynamic": {
+        "linear_acceleration": [
+          "variable.particle_random_2 < 0.5 ? 1.5 : -1.5",
+          0,
+          0
+        ]
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "Math.Random(2.0,2.45)"
+      },
+      "minecraft:emitter_lifetime_expression": {
+        "expiration_expression": 1,
+        "activation_expression": 1
+      },
+      "minecraft:emitter_rate_instant": {
+        "num_particles": "variable.num_particles"
+      }
+    }
+  },
+  "format_version": "1.10.0"
+}

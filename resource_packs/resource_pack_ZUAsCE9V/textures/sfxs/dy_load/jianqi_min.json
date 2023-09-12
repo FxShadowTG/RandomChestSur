@@ -1,0 +1,1276 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "jianqi_min_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.035",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:eb50881dc085e0f3451ff5a117db7f34:2835217f72a569cda222deef6561eb8f:5352c57d2dd1c8e373dbe2a96dfe8637$",
+    "image": "jianqi_min.png",
+    "size": {
+      "h": 128,
+      "w": 128
+    }
+  }
+}

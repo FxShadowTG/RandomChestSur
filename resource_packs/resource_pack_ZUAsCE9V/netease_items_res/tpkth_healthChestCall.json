@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:healthChestCall"
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:healthChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

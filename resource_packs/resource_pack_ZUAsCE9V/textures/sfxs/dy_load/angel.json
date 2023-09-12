@@ -1,0 +1,1276 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 435,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 435,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 435,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 435,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "angel_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.6",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:c3f7edee85877690913f5c5257d3b09b:d00fd3a7908cc38faba84a597628a7de:ad2e011111cde493d0250dfab53f63f2$",
+    "image": "angel.png",
+    "size": {
+      "h": 512,
+      "w": 512
+    }
+  }
+}

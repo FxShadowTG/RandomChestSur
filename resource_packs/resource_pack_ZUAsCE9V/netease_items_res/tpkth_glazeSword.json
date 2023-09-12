@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:glazeSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:glazeSword",
+            "register_to_create_menu": true
+        }
+    }
+}

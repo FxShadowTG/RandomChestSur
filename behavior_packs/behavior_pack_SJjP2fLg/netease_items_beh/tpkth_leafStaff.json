@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:foil": true,
+            "minecraft:max_damage": 10,
+            "minecraft:max_stack_size": 1,
+            "netease:customtips": {
+                "value": "点击草地上方生成随机树苗"
+            },
+            "netease:weapon": {
+                "attack_damage": 4,
+                "enchantment": 15,
+                "level": 1,
+                "speed": 1,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:leafStaff",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,591 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_16.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 48,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_17.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 95,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_18.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 142,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_19.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 189,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_20.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 48,
+        "x": 1,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_21.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 48,
+        "x": 48,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_22.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 48,
+        "x": 95,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_23.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 48,
+        "x": 142,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_24.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 48,
+        "x": 189,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_25.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 95,
+        "x": 1,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_26.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 95,
+        "x": 48,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_27.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 95,
+        "x": 95,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_28.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 95,
+        "x": 142,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_29.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 95,
+        "x": 189,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_30.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 142,
+        "x": 1,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_31.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 142,
+        "x": 48,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_32.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 142,
+        "x": 95,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_33.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 142,
+        "x": 142,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_34.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 142,
+        "x": 189,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_35.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 189,
+        "x": 1,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_36.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 189,
+        "x": 48,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_37.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    },
+    {
+      "frame": {
+        "y": 189,
+        "x": 95,
+        "w": 45,
+        "h": 45
+      },
+      "rotated": false,
+      "filename": "tiaofei_38.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 45,
+        "w": 45
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 45,
+        "h": 45
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.45",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:d0a72dc3c66a8b57b5f54c3f47d23163:f827e9f949fe7edf1669a42ed27662bc:b4ff6f5db9a15275b7e14f48ccf547ed$",
+    "image": "tiaofei.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

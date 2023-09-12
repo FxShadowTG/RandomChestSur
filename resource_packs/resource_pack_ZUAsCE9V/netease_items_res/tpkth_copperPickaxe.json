@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:copperPickaxe"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:copperPickaxe",
+            "register_to_create_menu": true
+        }
+    }
+}

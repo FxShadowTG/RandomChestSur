@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "netease:customtips": {
+                "value": "点击地面后会召唤一只l绿宝石宝箱怪"
+            },
+            "netease:egg": {
+                "entity": "tpkth:emerald_chest_lv70"
+            }
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:emeraldChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

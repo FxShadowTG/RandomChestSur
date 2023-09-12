@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 3000,
+            "minecraft:max_stack_size": 1,
+            "netease:weapon": {
+                "attack_damage": 40,
+                "enchantment": 30,
+                "level": 3,
+                "speed": 15,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:rainbowSword",
+            "register_to_create_menu": true
+        }
+    }
+}

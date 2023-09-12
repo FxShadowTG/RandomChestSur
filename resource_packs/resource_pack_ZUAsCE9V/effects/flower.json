@@ -1,0 +1,29 @@
+{
+  "frameeffect": {
+    "cylinder_enable": true,
+    "cylinder_frac_num": 200,
+    "cylinder_height": 1.0,
+    "cylinder_radius_down": 5.0,
+    "cylinder_radius_up": 5.0,
+    "depth_test": true,
+    "face_camera": false,
+    "fps": 0,
+    "loop": true,
+    "rot_speed": [
+      0.0,
+      15.0,
+      0.0
+    ],
+    "scale": [
+      0.08,
+      0.1,
+      0.08
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      3,
+      1
+    ],
+    "texture": "textures/sfxs/buff/flower"
+  }
+}

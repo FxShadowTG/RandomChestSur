@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:coalChangeBlock"
+        },
+        "key": {
+            "C": {
+                "data": 0,
+                "item": "minecraft:furnace"
+            },
+            "D": {
+                "data": 0,
+                "item": "minecraft:coal"
+            },
+            "E": {
+                "data": 0,
+                "item": "minecraft:gunpowder"
+            }
+        },
+        "pattern": [
+            " D ",
+            "DCD",
+            " E "
+        ],
+        "result": {
+            "count": 2,
+            "data": 0,
+            "item": "tpkth:coalChangeBlock"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

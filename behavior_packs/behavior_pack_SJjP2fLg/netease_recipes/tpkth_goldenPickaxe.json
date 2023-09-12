@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:goldenPickaxe"
+        },
+        "key": {
+            "B": {
+                "data": 0,
+                "item": "minecraft:gold_block"
+            },
+            "D": {
+                "data": 0,
+                "item": "minecraft:gold_ingot"
+            },
+            "E": {
+                "data": 0,
+                "item": "minecraft:stick"
+            }
+        },
+        "pattern": [
+            " DB",
+            " ED",
+            "E  "
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:goldenPickaxe"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

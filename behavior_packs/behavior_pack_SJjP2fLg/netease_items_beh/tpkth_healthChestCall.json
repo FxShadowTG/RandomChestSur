@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "netease:customtips": {
+                "value": "点击地面后会召唤一只生命宝箱怪"
+            },
+            "netease:egg": {
+                "entity": "tpkth:health_chest_lv20"
+            }
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:healthChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

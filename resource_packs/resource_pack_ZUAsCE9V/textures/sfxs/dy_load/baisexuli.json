@@ -1,0 +1,1276 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 63,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 125,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 187,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 249,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 311,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 249,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 311,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 373,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 373,
+        "x": 435,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 435,
+        "x": 1,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 435,
+        "x": 63,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 435,
+        "x": 125,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "frame": {
+        "y": 435,
+        "x": 187,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "filename": "baisexuli_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 60,
+        "w": 60
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 60,
+        "h": 60
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.6",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:97c0a5c95fbd463296ab7ed50be7b813:49f17838be4072bf16dabf0b5de17756:643f092bd3eb07af1e6c3f8bb078a264$",
+    "image": "baisexuli.png",
+    "size": {
+      "h": 512,
+      "w": 512
+    }
+  }
+}

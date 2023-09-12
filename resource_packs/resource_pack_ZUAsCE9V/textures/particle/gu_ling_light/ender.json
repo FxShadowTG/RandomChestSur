@@ -1,0 +1,100 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "Opaque"
+    },
+    "colorfade": [
+      {
+        "color": "0.25 0.20 1.00 1.00",
+        "time": "0.0"
+      },
+      {
+        "color": "0.71 0.09 0.41 1.00",
+        "time": "125.0"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 2.0 0.0"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "-1.0 0.0 -1.0",
+      "min": "1.0 0.0 1.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "5.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "100"
+    },
+    "particlesize": {
+      "max": "0.03 0.05",
+      "min": "0.03 0.05"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "180.0",
+      "min": "-180.0"
+    },
+    "rotationspeed": {
+      "max": "180.0",
+      "min": "-60.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0"
+      },
+      {
+        "scale": "1.5599999999999996 1.5599999999999996",
+        "time": "1.2"
+      },
+      {
+        "scale": "1.7839999999999998 1.7839999999999998",
+        "time": "2.4"
+      },
+      {
+        "scale": "1.8735999999999997 1.8735999999999997",
+        "time": "3.6"
+      },
+      {
+        "scale": "1.9094399999999996 1.9094399999999996",
+        "time": "4.8"
+      },
+      {
+        "scale": "1.9237759999999997 1.9237759999999997",
+        "time": "6.0"
+      }
+    ],
+    "texture": {
+      "name": "textures/particle/gu_ling_light/ender"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "5.0",
+      "min": "3.0"
+    },
+    "velocity": {
+      "max": "2.0",
+      "min": "4.0"
+    }
+  }
+}

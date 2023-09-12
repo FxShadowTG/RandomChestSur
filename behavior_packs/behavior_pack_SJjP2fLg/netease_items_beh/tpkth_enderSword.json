@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 1000,
+            "netease:weapon": {
+                "attack_damage": 7,
+                "enchantment": 5,
+                "level": 1,
+                "speed": 4,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:enderSword",
+            "register_to_create_menu": true
+        }
+    }
+}

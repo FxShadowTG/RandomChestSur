@@ -1,0 +1,2016 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_0.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_1.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_2.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_3.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_4.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_5.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_6.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_7.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 217,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_8.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_9.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_10.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_11.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_12.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_13.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_14.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_15.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_16.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 28,
+        "x": 217,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_17.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_18.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_19.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_20.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_21.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_22.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_23.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_24.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_25.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 55,
+        "x": 217,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_26.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_27.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_28.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_29.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_30.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_31.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_32.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_33.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_34.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 82,
+        "x": 217,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_35.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_36.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_37.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_38.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_39.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_40.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_41.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_42.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_43.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 109,
+        "x": 217,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_44.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_45.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_46.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_47.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_48.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_49.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_50.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_51.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_52.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 136,
+        "x": 217,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_53.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_54.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_55.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_56.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_57.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_58.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_59.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_60.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_61.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 163,
+        "x": 217,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_62.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_63.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_64.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_65.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_66.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_67.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_68.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_69.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_70.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 190,
+        "x": 217,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_71.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 217,
+        "x": 1,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_72.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 217,
+        "x": 28,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_73.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 217,
+        "x": 55,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_74.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 217,
+        "x": 82,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_75.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 217,
+        "x": 109,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_76.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 217,
+        "x": 136,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_77.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 217,
+        "x": 163,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_78.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    },
+    {
+      "frame": {
+        "y": 217,
+        "x": 190,
+        "w": 25,
+        "h": 25
+      },
+      "rotated": false,
+      "filename": "feidan_79.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 25,
+        "w": 25
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 25,
+        "h": 25
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.5",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:400b5e93070ae2715d202740fc046583:73daae431afb991f243dfe91a13a0c0b:8caf4c807ffe9f4317497b241d916fef$",
+    "image": "staffSkill1.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

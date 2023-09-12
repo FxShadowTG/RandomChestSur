@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:foil": true,
+            "minecraft:max_damage": 4000,
+            "minecraft:max_stack_size": 1,
+            "netease:weapon": {
+                "attack_damage": 13,
+                "enchantment": 15,
+                "level": 3,
+                "speed": 11,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:night_sword",
+            "register_to_create_menu": true
+        }
+    }
+}

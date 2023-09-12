@@ -1,0 +1,41 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 116,
+        "h": 116
+      },
+      "rotated": false,
+      "filename": "nav.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 116,
+        "w": 116
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 116,
+        "h": 116
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.45",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:03570c40acfaf068df3d0db6ae04c109:bbf1467f258f3057656da9332856346a:0a6f6717c55f7156e873942b503f07db$",
+    "image": "nav.png",
+    "size": {
+      "h": 128,
+      "w": 128
+    }
+  }
+}

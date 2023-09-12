@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:weightIronSword"
+        },
+        "key": {
+            "C": {
+                "data": 0,
+                "item": "minecraft:iron_sword"
+            },
+            "D": {
+                "data": 0,
+                "item": "tpkth:bandage"
+            }
+        },
+        "pattern": [
+            "DD",
+            "CD"
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:weightIronSword"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

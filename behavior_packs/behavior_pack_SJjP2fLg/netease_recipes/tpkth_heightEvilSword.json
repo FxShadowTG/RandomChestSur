@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:heightEvilSword"
+        },
+        "key": {
+            "C": {
+                "data": 0,
+                "item": "tpkth:evilSword"
+            },
+            "D": {
+                "data": 0,
+                "item": "minecraft:iron_ingot"
+            },
+            "E": {
+                "data": 0,
+                "item": "tpkth:bandage"
+            }
+        },
+        "pattern": [
+            "  D",
+            "EC ",
+            "DE "
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:heightEvilSword"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

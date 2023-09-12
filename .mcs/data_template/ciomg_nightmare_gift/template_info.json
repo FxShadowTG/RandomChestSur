@@ -1,0 +1,20 @@
+{
+    "files": [
+        {
+            "fileType": "EntityBehavior",
+            "path": "behavior_pack\\entities\\ciomg_nightmare_gift.json"
+        },
+        {
+            "fileType": "EntityResource",
+            "path": "resource_pack\\entity\\ciomg_nightmare_gift.json"
+        },
+        {
+            "fileType": "Lang",
+            "path": "resource_pack\\texts\\zh_CN.lang"
+        }
+    ],
+    "identifier": "ciomg_nightmare_gift",
+    "name": "ciomg_nightmare_gift",
+    "resType": 1,
+    "version": "1.0.0"
+}

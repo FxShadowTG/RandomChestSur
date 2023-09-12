@@ -1,0 +1,866 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_0.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 26,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_1.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 51,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_2.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 76,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_3.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 101,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_4.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 126,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_5.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 151,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_6.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 176,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_7.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 201,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_8.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 226,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_9.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 1,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_10.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 26,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_11.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 51,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_12.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 76,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_13.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 101,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_14.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 126,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_15.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 151,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_16.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 176,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_17.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 201,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_18.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 50,
+        "x": 226,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_19.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 1,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_20.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 26,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_21.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 51,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_22.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 76,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_23.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 101,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_24.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 126,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_25.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 151,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_26.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 176,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_27.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 201,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_28.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 99,
+        "x": 226,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_29.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 148,
+        "x": 1,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_30.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 148,
+        "x": 26,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_31.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 148,
+        "x": 51,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_32.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    },
+    {
+      "frame": {
+        "y": 148,
+        "x": 76,
+        "w": 23,
+        "h": 47
+      },
+      "rotated": false,
+      "filename": "canying_33.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 47,
+        "w": 23
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 23,
+        "h": 47
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.2",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:4615cfdeacd5d388f1f57ed0018686a9:04cd6c688dc6e47e36ee67ad7fc077d6:6e0073de2dacad815b57eb779df48ad7$",
+    "image": "staffSkill2.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

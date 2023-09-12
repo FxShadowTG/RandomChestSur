@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:rainbowChestCall"
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:rainbowChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "frameeffect": {
+    "cylinder_radius_down": 1.0,
+    "scale": [
+      0.5,
+      2.0,
+      0.5
+    ],
+    "shuffle": false,
+    "depth_test": true,
+    "cylinder_height": 1,
+    "cylinder_frac_num": 99,
+    "texture": "textures/sfxs/dy_load/staffSkill4_player",
+    "cylinder_radius_up": 1.0,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "fps": 60,
+    "face_camera": false,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "cylinder_enable": true,
+    "loop": true
+  }
+}

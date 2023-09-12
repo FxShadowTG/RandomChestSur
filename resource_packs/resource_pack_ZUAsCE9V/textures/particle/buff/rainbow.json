@@ -1,0 +1,56 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emitterscale": [
+
+    ],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "0.8 0.4",
+      "min": "0.8 0.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "24",
+        "name": "textures/sfxs/buff/rainbow",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/buff/rainbow"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "10.0",
+      "min": "10.0"
+    }
+  }
+}

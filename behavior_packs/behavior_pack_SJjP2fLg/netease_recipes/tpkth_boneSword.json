@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:boneSword"
+        },
+        "key": {
+            "B": {
+                "data": 0,
+                "item": "minecraft:bone"
+            },
+            "C": {
+                "data": 0,
+                "item": "minecraft:stick"
+            }
+        },
+        "pattern": [
+            "  B",
+            " B ",
+            "C  "
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:boneSword"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:rainbowSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:rainbowSword",
+            "register_to_create_menu": true
+        }
+    }
+}

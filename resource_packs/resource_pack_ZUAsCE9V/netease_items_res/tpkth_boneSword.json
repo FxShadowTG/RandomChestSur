@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:boneSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:boneSword",
+            "register_to_create_menu": true
+        }
+    }
+}

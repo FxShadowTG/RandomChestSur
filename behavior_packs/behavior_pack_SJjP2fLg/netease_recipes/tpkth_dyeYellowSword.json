@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tpkth:dyeYellowSword"
+        },
+        "key": {
+            "C": {
+                "data": 0,
+                "item": "minecraft:stone_sword"
+            },
+            "D": {
+                "data": 0,
+                "item": "minecraft:yellow_dye"
+            }
+        },
+        "pattern": [
+            "DD",
+            "CD"
+        ],
+        "result": {
+            "count": 1,
+            "data": 0,
+            "item": "tpkth:dyeYellowSword"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

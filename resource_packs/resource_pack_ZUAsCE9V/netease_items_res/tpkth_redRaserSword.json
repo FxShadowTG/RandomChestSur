@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:redRaserSword"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:redRaserSword",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,1276 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_0.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_1.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_2.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_3.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_4.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_5.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_6.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_7.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_8.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_9.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_10.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_11.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_12.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_13.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_14.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 17,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_15.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_16.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_17.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_18.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_19.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_20.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_21.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_22.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 33,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_23.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_24.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_25.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_26.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_27.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_28.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 49,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 65,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 81,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 65,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 81,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 97,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 97,
+        "x": 113,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 1,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 17,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 33,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_58.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    },
+    {
+      "frame": {
+        "y": 113,
+        "x": 49,
+        "w": 14,
+        "h": 14
+      },
+      "rotated": false,
+      "filename": "hongsehuanraolizi_59.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 14,
+        "w": 14
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 14,
+        "h": 14
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.35",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:0213d44c6930a1fe57c13afff74b72d3:700e69e0a6b9b348e5f3ef9ddaaf4efe:0ad86531ad4b3d3bbafb94b01e92a2cc$",
+    "image": "hongsehuanraolizi.png",
+    "size": {
+      "h": 128,
+      "w": 128
+    }
+  }
+}

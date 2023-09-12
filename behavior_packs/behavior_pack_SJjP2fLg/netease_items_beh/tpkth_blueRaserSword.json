@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_damage": 1000,
+            "netease:weapon": {
+                "attack_damage": 5,
+                "enchantment": 5,
+                "level": 2,
+                "speed": 3,
+                "type": "sword"
+            }
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:blueRaserSword",
+            "register_to_create_menu": true
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "value": "Direction",
+      "min": "0.0 0.0 0.0"
+    },
+    "numparticles": {
+      "value": "10000"
+    },
+    "colorfade": [
+      {
+        "color": "0.43 0.11 0.61 1.00",
+        "time": "0.0"
+      },
+      {
+        "color": "1.00 1.00 1.00 0.00",
+        "time": "1.0"
+      }
+    ],
+    "emissionrate": {
+      "max": "50.0",
+      "min": "30.0"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "texture": {
+      "ani": {
+        "name": "",
+        "fps": "60"
+      },
+      "name": "textures/sfxs/dy_load/staffAttack"
+    },
+    "emitterscale": [],
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.3 0.3"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "0.5"
+      }
+    ]
+  }
+}

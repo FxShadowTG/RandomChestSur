@@ -1,0 +1,249 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:entity": {
+        "component_groups": {
+            "minecraft:pig_zombie_adult": {
+                "minecraft:experience_reward": {
+                    "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+                },
+                "minecraft:rideable": {
+                    "family_types": [
+                        "zombie"
+                    ],
+                    "seat_count": 1,
+                    "seats": {
+                        "lock_rider_rotation": 0,
+                        "position": [
+                            0.0,
+                            1.1,
+                            -0.35
+                        ]
+                    }
+                }
+            },
+            "minecraft:pig_zombie_angry": {
+                "minecraft:angry": {
+                    "broadcast_anger": true,
+                    "broadcast_range": 20,
+                    "calm_event": {
+                        "event": "minecraft:on_calm",
+                        "target": "self"
+                    },
+                    "duration": 25
+                }
+            },
+            "minecraft:pig_zombie_baby": {
+                "minecraft:experience_reward": {
+                    "on_death": "query.last_hit_by_player ? 12 + (query.equipment_count * Math.Random(1,3)) : 0"
+                },
+                "minecraft:is_baby": {
+
+                },
+                "minecraft:scale": {
+                    "value": 0.5
+                }
+            },
+            "minecraft:pig_zombie_calm": {
+                "minecraft:on_target_acquired": {
+                    "event": "minecraft:become_angry",
+                    "target": "self"
+                }
+            }
+        },
+        "components": {
+            "minecraft:attack": {
+                "damage": 7
+            },
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 1
+            },
+            "minecraft:behavior.look_at_player": {
+                "look_distance": 6.0,
+                "priority": 8,
+                "probability": 0.02
+            },
+            "minecraft:behavior.melee_attack": {
+                "priority": 3,
+                "speed_multiplier": 1.5,
+                "track_target": false
+            },
+            "minecraft:behavior.mount_pathing": {
+                "priority": 2,
+                "speed_multiplier": 1.5,
+                "target_dist": 0,
+                "track_target": true
+            },
+            "minecraft:behavior.move_towards_restriction": {
+                "priority": 5
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 9
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 7,
+                "speed_multiplier": 1.5
+            },
+            "minecraft:behavior.stomp_turtle_egg": {
+                "goal_radius": 1.14,
+                "interval": 20,
+                "priority": 4,
+                "search_count": 4,
+                "search_height": 3,
+                "search_range": 10,
+                "speed_multiplier": 1
+            },
+            "minecraft:breathable": {
+                "breathes_water": true,
+                "suffocate_time": 0,
+                "total_supply": 15
+            },
+            "minecraft:burns_in_daylight": false,
+            "minecraft:can_climb": {
+
+            },
+            "minecraft:collision_box": {
+                "height": 1.9,
+                "width": 0.6
+            },
+            "minecraft:equipment": {
+                "table": "loot_tables/entities/zombie_pigman_gear.json"
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:health": {
+                "max": 100,
+                "value": 100
+            },
+            "minecraft:jump.static": {
+
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/entities/zombie_pigman.json"
+            },
+            "minecraft:movement": {
+                "value": 0.23
+            },
+            "minecraft:movement.basic": {
+
+            },
+            "minecraft:nameable": {
+
+            },
+            "minecraft:navigation.walk": {
+                "avoid_portals": true,
+                "avoid_water": true,
+                "can_open_doors": true,
+                "can_pass_doors": true,
+                "is_amphibious": true
+            },
+            "minecraft:persistent": {
+
+            },
+            "minecraft:physics": {
+
+            },
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "zombie_pigman",
+                    "undead",
+                    "monster",
+                    "mob"
+                ]
+            }
+        },
+        "description": {
+            "identifier": "tpkth:dwztzj_piglin",
+            "is_experimental": false,
+            "is_spawnable": true,
+            "is_summonable": true
+        },
+        "events": {
+            "minecraft:become_angry": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:pig_zombie_angry"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "minecraft:pig_zombie_calm"
+                    ]
+                }
+            },
+            "minecraft:entity_spawned": {
+                "randomize": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "minecraft:pig_zombie_adult",
+                                "minecraft:pig_zombie_calm"
+                            ]
+                        },
+                        "remove": {
+
+                        },
+                        "weight": 95
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "minecraft:pig_zombie_baby",
+                                "minecraft:pig_zombie_calm"
+                            ]
+                        },
+                        "remove": {
+
+                        },
+                        "weight": 5
+                    }
+                ]
+            },
+            "minecraft:entity_transformed": {
+                "sequence": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "minecraft:pig_zombie_baby",
+                                "minecraft:pig_zombie_calm"
+                            ]
+                        },
+                        "filters": {
+                            "subject": "other",
+                            "test": "has_component",
+                            "value": "minecraft:is_baby"
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "minecraft:pig_zombie_adult",
+                                "minecraft:pig_zombie_calm"
+                            ]
+                        },
+                        "filters": {
+                            "operator": "!=",
+                            "subject": "other",
+                            "test": "has_component",
+                            "value": "minecraft:is_baby"
+                        }
+                    }
+                ]
+            },
+            "minecraft:on_calm": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:pig_zombie_calm"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "minecraft:pig_zombie_angry"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:mushroomStaff"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:mushroomStaff",
+            "register_to_create_menu": true
+        }
+    }
+}

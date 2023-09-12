@@ -1,0 +1,625 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_29.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 18,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_30.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 18,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_31.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 35,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_32.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 52,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_33.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 69,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_34.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 86,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_35.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 1,
+        "x": 103,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_36.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 18,
+        "x": 1,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_37.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 18,
+        "x": 18,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_38.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 18,
+        "x": 35,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_39.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 18,
+        "x": 52,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_40.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 18,
+        "x": 69,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_41.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 18,
+        "x": 86,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_42.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 18,
+        "x": 103,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_43.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 35,
+        "x": 1,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_44.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 35,
+        "x": 18,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_45.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 35,
+        "x": 35,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_46.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 35,
+        "x": 52,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_47.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 35,
+        "x": 69,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_48.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 35,
+        "x": 86,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_49.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 35,
+        "x": 103,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_50.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 52,
+        "x": 1,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_51.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 52,
+        "x": 18,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_52.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 52,
+        "x": 35,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_53.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 52,
+        "x": 52,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_54.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 52,
+        "x": 69,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_55.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 52,
+        "x": 86,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_56.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    },
+    {
+      "frame": {
+        "y": 52,
+        "x": 103,
+        "w": 15,
+        "h": 15
+      },
+      "rotated": false,
+      "filename": "lanseaoe_57.png",
+      "trimmed": false,
+      "sourceSize": {
+        "h": 15,
+        "w": 15
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 15,
+        "h": 15
+      }
+    }
+  ],
+  "meta": {
+    "scale": "0.15",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:57fb6126d281fddc612222b96687ee6a:2ccc0bd50e4e430d7e148f964aff9dd3:5c95132fd927b5a1869d97b8bd779ac0$",
+    "image": "lanseaoe.png",
+    "size": {
+      "h": 128,
+      "w": 128
+    }
+  }
+}

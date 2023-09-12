@@ -1,0 +1,112 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "tpkth:baseChestPointBlock": {
+        "isotropic": {
+            "down": true,
+            "east": true,
+            "north": true,
+            "south": true,
+            "up": true,
+            "west": true
+        },
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "east": "tpkth:BaseChestPointBlock",
+            "north": "tpkth:BaseChestPointBlock",
+            "south": "tpkth:BaseChestPointBlock",
+            "up": "tpkth:BaseChestPointBlock",
+            "west": "tpkth:BaseChestPointBlock"
+        }
+    },
+    "tpkth:baseHornChestPointBlock": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "side": "tpkth:BaseLineChestPointBlock",
+            "up": "tpkth:BaseHornChestPointBlock"
+        }
+    },
+    "tpkth:baseHornChestPointBlock2": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "side": "tpkth:BaseLineChestPointBlock",
+            "up": "tpkth:BaseHornChestPointBlock2"
+        }
+    },
+    "tpkth:baseHornChestPointBlock3": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "side": "tpkth:BaseLineChestPointBlock",
+            "up": "tpkth:BaseHornChestPointBlock3"
+        }
+    },
+    "tpkth:baseHornChestPointBlock4": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "side": "tpkth:BaseLineChestPointBlock",
+            "up": "tpkth:BaseHornChestPointBlock4"
+        }
+    },
+    "tpkth:baseLineChestPointBlock": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "side": "tpkth:BaseLineChestPointBlock",
+            "up": "tpkth:BaseLineChestPointBlock"
+        }
+    },
+    "tpkth:baseLineChestPointBlock2": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "side": "tpkth:BaseLineChestPointBlock",
+            "up": "tpkth:BaseLineChestPointBlock2"
+        }
+    },
+    "tpkth:baseLineChestPointBlock3": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "side": "tpkth:BaseLineChestPointBlock",
+            "up": "tpkth:BaseLineChestPointBlock3"
+        }
+    },
+    "tpkth:baseLineChestPointBlock4": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "side": "tpkth:BaseLineChestPointBlock",
+            "up": "tpkth:BaseLineChestPointBlock4"
+        }
+    },
+    "tpkth:chestPointBlock": {
+        "isotropic": {
+
+        },
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:BaseChestPointBlock",
+            "east": "tpkth:BaseChestPointBlock",
+            "north": "tpkth:BaseChestPointBlock",
+            "south": "tpkth:BaseChestPointBlock",
+            "up": "tpkth:chestPointBlock",
+            "west": "tpkth:BaseChestPointBlock"
+        }
+    },
+    "tpkth:coalChangeBlock": {
+        "sound": "stone",
+        "textures": {
+            "down": "tpkth:coalChangeBlock",
+            "side": "tpkth:coalChangeBlock2",
+            "up": "tpkth:coalChangeBlock"
+        }
+    }
+}

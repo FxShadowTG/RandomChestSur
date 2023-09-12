@@ -1,0 +1,41 @@
+{
+  "frames": [
+    {
+      "frame": {
+        "y": 1,
+        "x": 1,
+        "w": 117,
+        "h": 233
+      },
+      "rotated": false,
+      "filename": "STEVE.png",
+      "trimmed": false,
+      "pivot": {
+        "y": 0.5,
+        "x": 0.5
+      },
+      "sourceSize": {
+        "h": 233,
+        "w": 117
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 117,
+        "h": 233
+      }
+    }
+  ],
+  "meta": {
+    "scale": "1",
+    "format": "RGBA8888",
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:af7870587f2af9d7389f8a7b682a0122:bcc562d4b4f284430eae43f2c1d2b08a:34ee39ca3818031629255177dd5cd9e9$",
+    "image": "STEVE.png",
+    "size": {
+      "h": 256,
+      "w": 256
+    }
+  }
+}

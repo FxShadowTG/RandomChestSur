@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": "tpkth:platinumPickaxe"
+        },
+        "description": {
+            "category": "Equipment",
+            "identifier": "tpkth:platinumPickaxe",
+            "register_to_create_menu": true
+        }
+    }
+}

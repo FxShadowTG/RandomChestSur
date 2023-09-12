@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "components": {
+            "netease:customtips": {
+                "value": "点击地面后会召唤一只黑曜石宝箱怪"
+            },
+            "netease:egg": {
+                "entity": "tpkth:obsidian_chest_lv60"
+            }
+        },
+        "description": {
+            "category": "Items",
+            "identifier": "tpkth:obsidianChestCall",
+            "register_to_create_menu": true
+        }
+    }
+}
