@@ -22,9 +22,10 @@ class RandomChestModServerSystem(ServerSystem):
         compCreateBlockUseEventWhiteList.AddBlockItemListenForUseEvent("minecraft:end_stone:*")
         compCreateBlockUseEventWhiteList.AddBlockItemListenForUseEvent("minecraft:grass:*")
         compCreateBlockUseEventWhiteList.AddBlockItemListenForUseEvent("minecraft:bell:*")
+        compCreateBlockUseEventWhiteList.AddBlockItemListenForUseEvent("minecraft:wall_sign:*")
 
         #self.DEBUG开关
-        self.DEBUG = False
+        self.DEBUG = True
 
         #pvp临时开关（由玩家决定），默认为True
         #解释：玩家输入"pvp 关"时，将关闭pvp15分钟，时间到后自动重新开启pvp
@@ -33,7 +34,11 @@ class RandomChestModServerSystem(ServerSystem):
         self.pvpCountdown = 0
 
         #后台白名单
-        self.whiteList = ["残幻影","活宝宝宝呀"]
+        self.whiteList = ["残幻影","活宝宝宝呀","刷怪笼工作室"]
+
+        #地图信息（通过云端获取）
+        self.name = "暂时未获取到地图名"
+        self.notice = "暂时未获取到公告"
 
         #玩家列表
         self.playerList = []
@@ -54,7 +59,7 @@ class RandomChestModServerSystem(ServerSystem):
         #定义宝箱刷新点
         self.aPos = (-9.5, 1, -9.5)
         self.bPos = (9.5, 1, 9.5)
-        #定义宝箱名列表
+        #定义宝箱刷新列表
         self.chestNameDict =    {"tpkth:common_chest_lv1": "§l§aLV.1§f - §f普通宝箱怪","tpkth:common_chest_lv2": "§l§aLV.2§f - §f普通宝箱怪",
                                 "tpkth:common_chest_lv3": "§l§aLV.3§f - §f普通宝箱怪","tpkth:common_chest_lv4": "§l§aLV.4§f - §f普通宝箱怪",
                                 "tpkth:common_chest_lv5": "§l§aLV.5§f - §f普通宝箱怪","tpkth:common_chest_lv6": "§l§aLV.6§f - §f普通宝箱怪",
@@ -76,12 +81,12 @@ class RandomChestModServerSystem(ServerSystem):
                                 "tpkth:obsidian_chest_lv60":"§l§aLV.60§f - §0黑曜石宝箱怪","tpkth:emerald_chest_lv70":"§l§aLV.70§f - §a绿宝石宝箱怪",
                                 "tpkth:night_chest_lv80":"§l§aLV.80§f - §c暗夜宝箱怪","tpkth:health_chest_lv20":"§l§aLV.20§f - §a生命宝箱怪",  #本行第二个元素开始为环境宝箱怪系列
                                 "tpkth:lava_chest_lv40":"§l§aLV.40§f - §c熔岩宝箱怪","tpkth:jungle_chest_lv30":"§l§aLV.30§f - §2丛林宝箱怪",
-                                "tpkth:ocean_chest_lv40":"§l§aLV.40§f - §b海洋宝箱怪"}
+                                "tpkth:ocean_chest_lv40":"§l§aLV.40§f - §b海洋宝箱怪","tpkth:mummy_chest": "§l§aLV.50§f - §f木乃伊宝箱怪"}
         
-        #特殊领域宝箱列表（此处的宝箱不会加入刷新列表）
+        #特殊领域宝箱列表（此处的宝箱不会加入刷新列表，除木乃伊外）
         self.chestEnvDict = {"tpkth:mummy_chest": "§l§aLV.50§f - §f木乃伊宝箱怪","tpkth:evil_chest": "§l§aLV.70§f - §d邪恶宝箱怪",}
 
-        #定义宝箱分数列表
+        #定义宝箱分数列表（含所有宝箱怪）
         self.chestScoreDict =    {"tpkth:common_chest_lv1": "1","tpkth:common_chest_lv2": "1",
                                 "tpkth:common_chest_lv3": "1","tpkth:common_chest_lv4": "1",
                                 "tpkth:common_chest_lv5": "1","tpkth:common_chest_lv6": "1",
@@ -108,7 +113,7 @@ class RandomChestModServerSystem(ServerSystem):
         self.randomBlockList = ["acacia_button","acacia_door","acacia_fence_gate","acacia_pressure_plate","acacia_stairs","acacia_standing_sign","acacia_trapdoor","acacia_wall_sign","activator_rail","air","allow","amethyst_block","amethyst_cluster","ancient_debris","andesite_stairs","anvil","azalea","azalea_leaves","azalea_leaves_flowered","bamboo","bamboo_mosaic_double_slab","bamboo_sapling","barrel","barrier","basalt","beacon","bed","bedrock","bee_nest","beehive","beetroot","bell","big_dripleaf","birch_button","birch_door","birch_fence_gate","birch_pressure_plate","birch_stairs","birch_standing_sign","birch_trapdoor","birch_wall_sign","black_candle","black_candle_cake","black_glazed_terracotta","black_stained_glass_pane","blackstone","blackstone_double_slab","blackstone_slab","blackstone_stairs","blackstone_wall","blast_furnace","blue_candle","blue_candle_cake","blue_glazed_terracotta","blue_ice","blue_stained_glass_pane","bone_block","bookshelf","border_block","brewing_stand","brick_block","brick_stairs","brown_candle","brown_candle_cake","brown_glazed_terracotta","brown_mushroom","brown_mushroom_block","brown_stained_glass_pane","bubble_column","budding_amethyst","cactus","cake","calcite","campfire","candle","candle_cake","carrots","cartography_table","carved_pumpkin","cauldron","cave_vines","cave_vines_body_with_berries","cave_vines_head_with_berries","chain","chain_command_block","chest","chiseled_deepslate","chiseled_nether_bricks","chiseled_polished_blackstone","chorus_flower","chorus_plant","clay","coal_block","coal_ore","cobbled_deepslate","cobbled_deepslate_double_slab","cobbled_deepslate_slab","cobbled_deepslate_stairs","cobbled_deepslate_wall","cobblestone","cobblestone_wall","cocoa","command_block","composter","conduit","copper_block","copper_ore","coral_block","coral_fan","coral_fan_dead","coral_fan_hang","coral_fan_hang2","coral_fan_hang3","cracked_deepslate_bricks","cracked_deepslate_tiles","cracked_nether_bricks","cracked_polished_blackstone_bricks","crafting_table","crimson_button","crimson_door","crimson_double_slab","crimson_fence","crimson_fence_gate","crimson_fungus","crimson_hyphae","crimson_nylium","crimson_planks","crimson_pressure_plate","crimson_roots","crimson_slab","crimson_stairs","crimson_standing_sign","crimson_stem","crimson_trapdoor","crimson_wall_sign","crying_obsidian","cut_copper","cut_copper_slab","cut_copper_stairs","cyan_candle","cyan_candle_cake","cyan_glazed_terracotta","cyan_stained_glass_pane","dark_oak_button","dark_oak_door","dark_oak_fence_gate","dark_oak_hanging_sign","dark_oak_pressure_plate","dark_oak_stairs","dark_oak_trapdoor","dark_prismarine_stairs","darkoak_standing_sign","darkoak_wall_sign","daylight_detector","daylight_detector_inverted","deadbush","deepslate","deepslate_brick_double_slab","deepslate_brick_slab","deepslate_brick_stairs","deepslate_brick_wall","deepslate_bricks","deepslate_coal_ore","deepslate_copper_ore","deepslate_diamond_ore","deepslate_emerald_ore","deepslate_gold_ore","deepslate_iron_ore","deepslate_lapis_ore","deepslate_redstone_ore","deepslate_tile_double_slab","deepslate_tile_slab","deepslate_tile_stairs","deepslate_tile_wall","deepslate_tiles","deny","detector_rail","diamond_block","diamond_ore","diorite_stairs","dirt","dirt_with_roots","dispenser","double_cut_copper_slab","double_plant","double_stone_block_slab","double_stone_block_slab2","double_stone_block_slab4","double_wooden_slab","dragon_egg","dried_kelp_block","dripstone_block","dropper","emerald_block","emerald_ore","enchanting_table","end_brick_stairs","end_bricks","end_portal","end_portal_frame","end_rod","end_stone","ender_chest","exposed_copper","exposed_cut_copper","exposed_cut_copper_slab","exposed_cut_copper_stairs","exposed_double_cut_copper_slab","farmland","fence_gate","fire","fletching_table","flower_pot","flowering_azalea","flowing_lava","flowing_water","frame","frosted_ice","furnace","gilded_blackstone","glass","glass_pane","glow_frame","glow_lichen","glowstone","gold_block","gold_ore","golden_rail","granite_stairs","grass","grass_path","gravel","gray_candle","gray_candle_cake","gray_glazed_terracotta","gray_stained_glass_pane","green_candle","green_candle_cake","green_glazed_terracotta","green_stained_glass_pane","grindstone","hanging_roots","hardened_clay","hay_block","heavy_weighted_pressure_plate","honey_block","honeycomb_block","hopper","ice","infested_deepslate","iron_bars","iron_block","iron_door","iron_ore","iron_trapdoor","jukebox","jungle_button","jungle_door","jungle_fence_gate","jungle_pressure_plate","jungle_stairs","jungle_standing_sign","jungle_trapdoor","jungle_wall_sign","kelp","ladder","lantern","lapis_block","lapis_ore","large_amethyst_bud","lava","leaves","leaves2","lectern","lever","light_block","light_blue_candle","light_blue_candle_cake","light_blue_concrete_powder","light_blue_glazed_terracotta","light_blue_shulker_box","light_blue_stained_glass","light_blue_stained_glass_pane","light_gray_candle","light_gray_candle_cake","light_gray_concrete_powder","light_gray_shulker_box","light_gray_stained_glass","light_gray_stained_glass_pane","light_weighted_pressure_plate","lightning_rod","lime_candle","lime_candle_cake","lime_glazed_terracotta","lime_stained_glass_pane","lit_blast_furnace","lit_deepslate_redstone_ore","lit_furnace","lit_pumpkin","lit_redstone_lamp","lit_redstone_ore","lit_smoker","lodestone","loom","magenta_candle","magenta_candle_cake","magenta_glazed_terracotta","magenta_stained_glass_pane","magma","medium_amethyst_bud","melon_block","melon_stem","mob_spawner","monster_egg","moss_block","moss_carpet","mossy_cobblestone","mossy_cobblestone_stairs","mossy_stone_brick_stairs","mycelium","nether_brick","nether_brick_fence","nether_brick_stairs","nether_gold_ore","nether_sprouts","nether_wart","nether_wart_block","netherite_block","netherrack","normal_stone_stairs","noteblock","oak_stairs","observer","obsidian","orange_candle","orange_candle_cake","orange_glazed_terracotta","orange_stained_glass_pane","oxidized_copper","oxidized_cut_copper","oxidized_cut_copper_slab","oxidized_cut_copper_stairs","oxidized_double_cut_copper_slab","packed_ice","pink_candle","pink_candle_cake","pink_glazed_terracotta","pink_stained_glass_pane","piston","planks","podzol","pointed_dripstone","polished_andesite_stairs","polished_basalt","polished_blackstone","polished_blackstone_brick_double_slab","polished_blackstone_brick_slab","polished_blackstone_brick_stairs","polished_blackstone_brick_wall","polished_blackstone_bricks","polished_blackstone_button","polished_blackstone_double_slab","polished_blackstone_pressure_plate","polished_blackstone_slab","polished_blackstone_stairs","polished_blackstone_wall","polished_deepslate","polished_deepslate_double_slab","polished_deepslate_slab","polished_deepslate_stairs","polished_deepslate_wall","polished_diorite_stairs","polished_granite_stairs","portal","potatoes","powder_snow","powered_comparator","powered_repeater","prismarine","prismarine_bricks_stairs","prismarine_stairs","pumpkin","pumpkin_stem","purple_candle","purple_candle_cake","purple_glazed_terracotta","purple_stained_glass_pane","purpur_block","purpur_stairs","quartz_block","quartz_bricks","quartz_ore","quartz_stairs","rail","raw_copper_block","raw_gold_block","raw_iron_block","red_candle","red_candle_cake","red_flower","red_glazed_terracotta","red_mushroom","red_mushroom_block","red_nether_brick","red_nether_brick_stairs","red_sandstone","red_sandstone_stairs","red_stained_glass_pane","redstone_block","redstone_lamp","redstone_ore","redstone_torch","redstone_wire","reeds","repeating_command_block","respawn_anchor","sand","sandstone","sandstone_stairs","sapling","scaffolding","sea_pickle","seagrass","shroomlight","silver_glazed_terracotta","skull","slime","small_amethyst_bud","small_dripleaf_block","smithing_table","smoker","smooth_basalt","smooth_quartz_stairs","smooth_red_sandstone_stairs","smooth_sandstone_stairs","smooth_stone","snow","snow_layer","soul_campfire","soul_fire","soul_lantern","soul_sand","soul_soil","soul_torch","sponge","spore_blossom","spruce_button","spruce_door","spruce_fence_gate","spruce_pressure_plate","spruce_stairs","spruce_standing_sign","spruce_trapdoor","spruce_wall_sign","standing_banner","standing_sign","sticky_piston","stone","stone_brick_stairs","stone_button","stone_pressure_plate","stone_stairs","stonebrick","stonecutter_block","stripped_acacia_log","stripped_bamboo_block","stripped_birch_log","stripped_crimson_hyphae","stripped_crimson_stem","stripped_dark_oak_log","stripped_jungle_log","stripped_oak_log","stripped_spruce_log","stripped_warped_hyphae","stripped_warped_stem","structure_block","structure_void","sweet_berry_bush","tallgrass","target","tinted_glass","tnt","torch","trapdoor","trapped_chest","tripwire_hook","tuff","turtle_egg","twisting_vines","undyed_shulker_box","unlit_redstone_torch","unpowered_comparator","unpowered_repeater","vine","wall_banner","wall_sign","warped_button","warped_door","warped_double_slab","warped_fence","warped_fence_gate","warped_fungus","warped_hyphae","warped_nylium","warped_planks","warped_pressure_plate","warped_roots","warped_slab","warped_stairs","warped_standing_sign","warped_stem","warped_trapdoor","warped_wall_sign","warped_wart_block","water","waterlily","waxed_copper","waxed_cut_copper","waxed_cut_copper_slab","waxed_cut_copper_stairs","waxed_double_cut_copper_slab","waxed_exposed_copper","waxed_exposed_cut_copper","waxed_exposed_cut_copper_slab","waxed_exposed_cut_copper_stairs","waxed_exposed_double_cut_copper_slab","waxed_oxidized_copper","waxed_oxidized_cut_copper","waxed_oxidized_cut_copper_slab","waxed_oxidized_cut_copper_stairs","waxed_oxidized_double_cut_copper_slab","waxed_weathered_copper","waxed_weathered_cut_copper","waxed_weathered_cut_copper_slab","waxed_weathered_cut_copper_stairs","waxed_weathered_double_cut_copper_slab","weathered_copper","weathered_cut_copper","weathered_cut_copper_slab","weathered_cut_copper_stairs","weathered_double_cut_copper_slab","web","weeping_vines","wheat","white_candle","white_candle_cake","white_glazed_terracotta","white_stained_glass_pane","wither_rose","wood","wooden_button","wooden_door","wooden_pressure_plate","wooden_slab","yellow_candle","yellow_candle_cake","yellow_flower","yellow_glazed_terracotta","yellow_stained_glass_pane"]
 
         #方块过滤表
-        self.blockFilterList = ["minecraft:end_stone","minecraft:grass","minecraft:bell","tpkth:coalchangeblock"]
+        self.blockFilterList = ["minecraft:wall_sign","minecraft:end_stone","minecraft:grass","minecraft:bell","tpkth:coalchangeblock"]
         # #发货映射表(取消通过映射表发货，因为正式环境有奇怪的bug)
         # self.sendGoodsRelationDict = {
         #     "buySmallChest": self.buySmallChest,
@@ -176,9 +181,11 @@ class RandomChestModServerSystem(ServerSystem):
         self.compCreateGame.AddRepeatedTimer(1.0,self.Deop)
 
         #开始给周围宝箱命名
-        self.compCreateGame.AddRepeatedTimer(1.0,self.NameAroundChest)
+        self.compCreateGame.AddRepeatedTimer(5.0,self.NameAroundChest)
         #轮询更新 C/S UI
         self.compCreateGame.AddRepeatedTimer(1.0,self.NotifyClientForUpdateUICycle)
+        #轮询查询并发货
+        self.compCreateGame.AddRepeatedTimer(30.0,self.ActionUserItemCycle)
 
     #开始监听
     def ListenEvent(self):
@@ -217,10 +224,13 @@ class RandomChestModServerSystem(ServerSystem):
         if not self.DEBUG:
             self.compCreateCommand.SetCommand("/deop @a")
 
+    #轮询查询并发货
+    def ActionUserItemCycle(self):
+        for playerId in self.playerList:
+            self.ActionUserItem(playerId)
+
     #玩家进入联机大厅时
     def OnlobbyGoodBuySucServerEvent(self,args):
-        print("lobbyGoodBuySucServerEvent:")
-        print(args)
         #如果玩家购买商品(eid: 玩家实体id，buyItem: 商品ID)
         if args["eid"] != None and args["buyItem"] != False:
             print("玩家购买商品")
@@ -233,6 +243,10 @@ class RandomChestModServerSystem(ServerSystem):
             self.GetPlayerScore(eid)
             #获取最新排行榜
             self.GetTop()
+            #初始化背包
+            self.GetPlayerData(eid)
+            #获取地图信息
+            self.GetInfoConfig()
             #获取玩家是否有双倍分数仪并自动添加
             self.GetStorageScoreMachine(eid)
             #获取玩家是否有财富之钟并自动添加
@@ -242,9 +256,13 @@ class RandomChestModServerSystem(ServerSystem):
             #获取玩家是否有合金钻头并自动添加和标记
             self.GetStorageBit(eid,"alloyBit")
 
+    #发送地图信息
+    def tips(self,playerId):
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, self.notice, "§7")
+
     #模式改变时（反作弊）
     def OnGameTypeChangedServerEvent(self,args):
-        print(args)
         playerId = args["playerId"]
         compCreateName = factory.CreateName(playerId)
         name = compCreateName.GetName()
@@ -257,20 +275,23 @@ class RandomChestModServerSystem(ServerSystem):
 
     #给周围宝箱命名
     def NameAroundChest(self):
-        for playerId in self.playerList:
-            entityList = self.compCreateGame.GetEntitiesAround(playerId, 50, None)
-        for entityId in entityList:
-        #设置宝箱名字
-            compCreateEngineType = factory.CreateEngineType(entityId)
-            entityName = compCreateEngineType.GetEngineTypeStr()
-            if entityName in self.chestNameDict:
-                compCreateName = factory.CreateName(entityId)
-                name = self.chestNameDict[entityName]
-                compCreateName.SetName(name)
-            elif entityName in self.chestEnvDict:
-                compCreateName = factory.CreateName(entityId)
-                name = self.chestEnvDict[entityName]
-                compCreateName.SetName(name)
+        if self.playerList != None:
+            for playerId in self.playerList:
+                entityList = self.compCreateGame.GetEntitiesAround(playerId, 25, None)
+                if entityList != None:
+                    for entityId in entityList:
+                    #设置宝箱名字
+                        compCreateEngineType = factory.CreateEngineType(entityId)
+                        entityName = compCreateEngineType.GetEngineTypeStr()
+                        if entityName in self.chestNameDict:
+                            compCreateName = factory.CreateName(entityId)
+                            name = self.chestNameDict[entityName]
+                            compCreateName.SetName(name)
+                        elif entityName in self.chestEnvDict:
+                            compCreateName = factory.CreateName(entityId)
+                            name = self.chestEnvDict[entityName]
+                            compCreateName.SetName(name)
+
     #当玩家聊天时
     def OnServerChatEvent(self,args):
         username = args["username"]
@@ -280,8 +301,19 @@ class RandomChestModServerSystem(ServerSystem):
         if username in self.whiteList and message[0] == "#":
             message = message.replace("#", "")
             self.compCreateCommand.SetCommand("/" + message,playerId)
+            args["message"] = ""
             args["cancel"]
             return
+        elif username in self.whiteList and message[0] == "@":
+            message = message.replace("@", "")
+            if message == "buyWealthBell":
+                self.buyWealthBell(playerId)
+            elif message == "buyScoreMachine":
+                self.buyScoreMachine(playerId)
+            args["message"] = ""
+            args["cancel"]
+            return
+        
         if message == "pvp 关" and self.pvp == True:
             self.pvp = False
 
@@ -324,10 +356,8 @@ class RandomChestModServerSystem(ServerSystem):
 
     #将玩家加入进在线玩家列表
     def OnAddServerPlayerEvent(self,args):
-        print(args)
         playerId = args["id"]
         self.playerList.append(playerId)
-
         #作者后台设定
         compCreateName = factory.CreateName(playerId)
         name = compCreateName.GetName()
@@ -349,6 +379,10 @@ class RandomChestModServerSystem(ServerSystem):
             self.GetPlayerScore(playerId)
             #获取最新排行榜
             self.GetTop()
+            #初始化背包
+            self.GetPlayerData(playerId)
+            #获取地图信息
+            self.GetInfoConfig()
             #获取玩家是否有双倍分数仪并自动添加
             self.GetStorageScoreMachine(playerId)
             #获取玩家是否有财富之钟并自动添加
@@ -358,11 +392,14 @@ class RandomChestModServerSystem(ServerSystem):
             #获取玩家是否有合金钻头并自动添加和标记
             self.GetStorageBit(playerId,"alloyBit")
 
+
     #玩家退出前执行的操作
     def OnPlayerIntendLeaveServerEvent(self,args):
         playerId = args["playerId"]
         #上传云分数数据
         self.UpLoadPlayerScore(playerId)
+        #上传背包数据
+        self.UploadPlayerData(playerId)
 
          #删除玩家列表
         if playerId in self.playerList:
@@ -402,7 +439,7 @@ class RandomChestModServerSystem(ServerSystem):
                     elif order["cmd"] == "buyStaffChest":
                         self.buyStaffChest(playerId)
                     elif order["cmd"] == "buyScoreMachine":
-                        self.buyBigChest(playerId)
+                        self.buyScoreMachine(playerId)
                     elif order["cmd"] == "buyCommonBit":
                         self.buyCommonBit(playerId)
                     elif order["cmd"] == "buyAlloyBit":
@@ -579,22 +616,37 @@ class RandomChestModServerSystem(ServerSystem):
         randomKey = self.Weighted_choice(keys, weights)
         randomValue = self.chestNameDict[randomKey]
         return randomKey,randomValue
-    
+        
+    #获取云端地图信息配置数据
+    def GetInfoConfig(self):
+        print("GetInfoConfig...")
+        compCreateHttp = factory.CreateHttp(self.levelId)
+
+        def cb(data):
+            if data:
+                newData = data["entity"]["data"]
+                self.name = newData[0]["value"]["name"]
+                self.notice = newData[0]["value"]["notice"]
+                print("getConfig succeeded")
+            else:
+                print ("getConfig failed")
+        keys = ["op_config"]
+        compCreateHttp.LobbyGetStorage(cb, 0, keys)
+
+        if self.DEBUG:
+            data = {'message':'op_configMessage','code':0,'details':'','entity':{'data':[{'version':4,'key':'op_config','value':{'notice':'欢迎游玩本地图，如有任何疑惑请在我们的社交媒体反馈','name':'随机方块空岛生存[无限宝箱版]','cdk':{'spawnstudio520':'buyAlloyBit','noruncle886':'buyWealthBell','firestar520':'buyCommonBit','fxhuo666':'buyScoreMachine','huobao888':'buyCommonBit','fxshadou666':'buyCommonBit'}}}]}}
+            cb(data)
+
     #从云获取最高的三条数据（每次获取并自动通知客户端）
     def GetTop(self):
         print("GetTop...")
         compCreateHttp = factory.CreateHttp(self.levelId)
 
         def cb(data):
-            print("gettopdata::")
-            print(data)
             if data:
                 newData = data["entity"]["data"]
-                print(newData)
                 #通知all客户端UI更新排行榜
                 #替换当前排行榜数据
-                print("self.playerList:")
-                print(self.playerList)
                 self.topDict = newData
                 print ("get top ok")
             else:
@@ -616,7 +668,6 @@ class RandomChestModServerSystem(ServerSystem):
 
         def cb(data):
             if data:
-                print(data)
                 # 更新本地数据
                 newData = { i["key"]: i["value"] for i in data["entity"]["data"] }
                 self.playerScoreDict[playerId] = newData["new_score"]
@@ -639,14 +690,11 @@ class RandomChestModServerSystem(ServerSystem):
         #定义空数组准备收集记录
         newDataVal = []
         def cb(data):
-            print(data)
             if data:
                 newData = { i["key"]: i["value"] for i in data["entity"]["data"] }
                 if newData != None and newData[bitName] != None:
                     newDataVal = json.loads(newData[bitName])
                     #如果已在本图发放过直接不发
-                    print("newDataVal?478")
-                    print(newDataVal)
                     if newDataVal["levelId"] == self.levelId and newDataVal["tag"] == True:
                         return
                     elif (newDataVal["levelId"] == self.levelId and newDataVal["tag"] != True) or (not any(item["levelId"] == self.levelId for item in newDataVal)):
@@ -654,7 +702,6 @@ class RandomChestModServerSystem(ServerSystem):
                         compCreateItem = factory.CreateItem(playerId)
                         itemDict = {'itemName': 'tpkth:' + bitName,'count': 1}
                         compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
-                        print(bitName + ": delivered and succeeded")
                     print("GetStorageBit succeeded")
             else:
                 print("GetStorageBit failed")
@@ -701,7 +748,6 @@ class RandomChestModServerSystem(ServerSystem):
         compCreateHttp = factory.CreateHttp(self.levelId)
         uid = compCreateHttp.GetPlayerUid(playerId)
         def cb(data):
-            print(data)
             if data:
                 newData = { i["key"]: i["value"] for i in data["entity"]["data"] }
                 if newData == None:
@@ -730,8 +776,6 @@ class RandomChestModServerSystem(ServerSystem):
             print(data)
             if data:
                 newData = { i["key"]: i["value"] for i in data["entity"]["data"] }
-                print("newdata??")
-                print(newData)
                 if newData["scoreMachine"] != None and newData["scoreMachine"] == True:
                     self.playerDoubleScoreList.append(playerId)
                     print("get scoreMachine succeeded")
@@ -821,6 +865,11 @@ class RandomChestModServerSystem(ServerSystem):
         if args["blockName"] not in self.blockFilterList:
             return
         playerId = args["playerId"]
+
+        #是否为公告
+        if args["blockName"] == "minecraft:wall_sign" and args["x"] == 6 and args["y"] == 1 and args["z"] == -5:
+            self.tips(playerId)
+
         #判断是否为财富之钟的玩家
         if playerId in self.playerWealthBellList and args["blockName"] == "minecraft:bell":
             compCreatePos = factory.CreatePos(playerId)
@@ -864,7 +913,7 @@ class RandomChestModServerSystem(ServerSystem):
             playerIdPosX = round(floor((playerIdPos[0])),0)
             playerIdPosY = round(floor((playerIdPos[1])),0)
             playerIdPosZ = round(floor((playerIdPos[2])),0)
-            newPlayerPos = (playerIdPosX,playerIdPosY,playerIdPosZ)
+            newPlayerPos = (playerIdPosX,playerIdPosY-1,playerIdPosZ)
             compCreateBlockInfo = factory.CreateBlockInfo(self.levelId)
             blockDict = compCreateBlockInfo.GetBlockNew(newPlayerPos, args["dimensionId"])
             if blockDict["name"] != "tpkth:coalchangeblock":
@@ -963,6 +1012,18 @@ class RandomChestModServerSystem(ServerSystem):
             #加速时间流逝
             self.compCreateCommand.SetCommand("/time add 50",playerId)
 
+        #神之波塞冬
+        elif itemDict != None and itemDict["newItemName"] == "tpkth:poseidonsword":
+            #水肺
+            compCreateEffect = factory.CreateEffect(playerId)
+            compCreateEffect.AddEffectToEntity("water_breathing", 30, 5, False)
+
+        #神之凋零
+        elif itemDict != None and itemDict["newItemName"] == "tpkth:poseidonsword":
+            #凋零
+            compCreateEffect = factory.CreateEffect(victimId)
+            compCreateEffect.AddEffectToEntity("wither", 5, 5, False)
+
         #获取类系
         compCreateAttr = factory.CreateAttr(victimId)
         familyList = compCreateAttr.GetTypeFamily()
@@ -979,7 +1040,7 @@ class RandomChestModServerSystem(ServerSystem):
         compCreateEngineType = factory.CreateEngineType(entityId)
         entityName = compCreateEngineType.GetEngineTypeStr()
         #如果死的不是宝箱就return
-        if entityName not in self.chestNameDict:
+        if entityName not in self.chestScoreDict:
             return
         #在宝箱分数表获取分数值
         score = self.chestScoreDict[entityName]
@@ -1022,3 +1083,98 @@ class RandomChestModServerSystem(ServerSystem):
             if args["x"] in (-8,-9,-10,-11,-12) and args["y"] in (1,2,3,4) and args["z"] in (7,8,9,10,11):
                 #一键挖掘刷新区的所有方块
                 self.compCreateCommand.SetCommand("/fill -8 1 7 -12 4 11 air 0 destroy")
+
+    #从云获取玩家数据并设置
+    def GetPlayerData(self,playerId):
+        print("GetPlayerData...")
+
+        compCreateHttp = factory.CreateHttp(self.levelId)
+        uid = compCreateHttp.GetPlayerUid(playerId)
+        def cb(data):
+            print("GetPlayerData")
+            print(data)
+            if data:
+                newData = data["entity"]["data"]
+
+                dict_obj = newData[0]
+
+                inventoryDict = json.loads(dict_obj['value'])['inventoryItems']
+                armorDict = json.loads(dict_obj['value'])['armorITems']
+                exp = json.loads(dict_obj['value'])['exp'] 
+
+                #修改玩家的物品数据
+                self.SetPlayerData(playerId,inventoryDict,armorDict,exp)
+                print("GetPlayerData succeeded")
+            else:
+                print ("GetPlayerData failed")
+        keys = ["bag"]
+        compCreateHttp.LobbyGetStorage(cb, uid, keys)
+
+        if self.DEBUG:
+            data = {'message': 'GetStorageBell', 'code': 0, 'details': '', 'entity': {'data': [{'version': 3, 'key': 'bag', 'value': '{"armorITems": [null, null, null, null], "exp": 10000, "inventoryItems": [{"count": 14, "newItemName": "minecraft:dirt", "enchantData": [], "durability": 0, "itemId": 3, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:dirt", "auxValue": 0, "showInHand": true}, {"count": 1, "newItemName": "minecraft:yellow_flower", "enchantData": [], "durability": 0, "itemId": 37, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:yellow_flower", "auxValue": 0, "showInHand": true}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]}'}]}}
+            cb(data)
+        
+    #设置玩家数据(物品栏，盔甲栏，经验值)
+    def SetPlayerData(self,playerId,inventoryDict,armorDict,exp):
+        compCreateItem = factory.CreateItem(playerId)
+        itemsDictMap = {}
+        index = 0
+        #背包
+        for item in inventoryDict:
+            if item == None:
+                continue
+            itemsDictMap[(serverApi.GetMinecraftEnum().ItemPosType.INVENTORY, index)] = item
+            index = index + 1
+        compCreateItem.SetPlayerAllItems(itemsDictMap)
+
+        #清空
+        itemsDictMap = {}
+
+        index = 0
+        #盔甲
+        for item in armorDict:
+            itemsDictMap[(serverApi.GetMinecraftEnum().ItemPosType.ARMOR, index)] = item
+            index = index + 1
+        compCreateItem.SetPlayerAllItems(itemsDictMap)
+
+        #设置经验
+        compCreateExp = factory.CreateExp(playerId)
+        compCreateExp.AddPlayerExperience(exp)
+
+    #上传玩家数据上云
+    def UploadPlayerData(self,playerId):
+        print("SavePlayerData...")
+        compCreateItem = factory.CreateItem(playerId)
+        #背包物品栏
+        inventoryItems = compCreateItem.GetPlayerAllItems(serverApi.GetMinecraftEnum().ItemPosType.INVENTORY)
+        #盔甲栏
+        armorITems = compCreateItem.GetPlayerAllItems(serverApi.GetMinecraftEnum().ItemPosType.ARMOR)
+        #获取经验
+        compCreateExp = factory.CreateExp(playerId)
+        exp = compCreateExp.GetPlayerTotalExp()
+        
+        bagList = {
+                    "inventoryItems":inventoryItems,
+                    "armorITems":armorITems,
+                    "exp":exp,
+                }
+
+        bagJSON = json.dumps(bagList)
+
+        #创建链接
+        compCreateHttp = factory.CreateHttp(self.levelId)
+        #获取玩家uid
+        uid = compCreateHttp.GetPlayerUid(playerId)
+        def callback(data):
+            if data:
+                print("SavePlayerData succeeded")
+            else:
+                print("SavePlayerData failed")
+        def getter():
+            return [
+                {
+                    "key": "bag",
+                    "value": bagJSON
+                }
+            ]
+        compCreateHttp.LobbySetStorageAndUserItem(callback, uid, None, getter)
