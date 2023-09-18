@@ -22,6 +22,7 @@ class RandomChestModScreenNode(ScreenNode):
         self.scoreControl = self.baseUIControl.GetChildByName("scoreLogo/score").asLabel()
         self.doubleScoreLogoControl = self.baseUIControl.GetChildByName("scoreLogo/doubleScoreLogo").asImage()
         self.attackControl = self.baseUIControl.GetChildByName("attackLogo/attack").asLabel()
+        self.healthControl = self.baseUIControl.GetChildByName("healthLogo/health").asLabel()
 
         #较特殊，这里可改可不改
         self.GetBaseUIControl("/panel/topButton").asButton().AddTouchEventParams()
@@ -54,6 +55,7 @@ class RandomChestModScreenNode(ScreenNode):
     #改变进度条的进度（只需要提供1-45的数字，本函数自动转换为小数点）
     def UpdateProgressBar(self,second):
         self.progressBarControl.SetValue(second)
+        comp = clientApi.GetEngineCompFactory().CreateGame(self.levelId)
 
     #改变排行榜数据（只支持前五）
     def UpdateTop(self,player,rank,color):
@@ -62,7 +64,7 @@ class RandomChestModScreenNode(ScreenNode):
 
     #改变进度条下方的剩余秒数
     def UpdateCountTime(self,second):
-        self.countdownTimeControl.SetText("下次刷新时间还有 " + str(int(second)) + " 秒")
+        self.countdownTimeControl.SetText("刷新 : " + str(int(second)))
 
     #改变分数
     def UpdateScore(self,score):
@@ -70,7 +72,11 @@ class RandomChestModScreenNode(ScreenNode):
 
     #改变攻击力
     def UpdateAttack(self,attack):
-        self.attackControl.SetText("我的攻击 + " + str(int(attack)))
+        self.attackControl.SetText("+ " + str(int(attack)))
+
+    #改变血量
+    def UpdateHealth(self,maxHealth,health):
+        self.healthControl.SetText("+ " + str(int(maxHealth)) + " (" + str(int(health)) + ")")
 
     def Destroy(self):
         pass
