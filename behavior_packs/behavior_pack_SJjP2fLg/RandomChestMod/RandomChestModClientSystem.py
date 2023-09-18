@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import mod.client.extraClientApi as clientApi
+import time
+import subprocess
 ClientSystem = clientApi.GetClientSystemCls()
 factory = clientApi.GetEngineCompFactory()
 
@@ -26,6 +28,9 @@ class RandomChestModClientSystem(ClientSystem):
         #排名颜色映射表
         self.rankColorDict = {1: "§c",2: "§6",3: "§d",4: "§b",5: "§a"}
 
+        #获取本地玩家的id
+        self.localPlayerId = clientApi.GetLocalPlayerId()
+        
         #播放排行榜
         compCreateGame = factory.CreateGame(self.levelId)
         compCreateGame.AddRepeatedTimer(10.0,self.PlayTopCycle)
@@ -43,6 +48,8 @@ class RandomChestModClientSystem(ClientSystem):
         self.ListenForEvent("RandomChestMod","RandomChestModServerSystem", "ScoreChangeEvent", self, self.OnScoreChangeEvent)
         #监听攻击力事件
         self.ListenForEvent("RandomChestMod","RandomChestModServerSystem", "AttackChangeEvent", self, self.OnAttackChangeEvent)
+        #监听血量事件
+        self.ListenForEvent("RandomChestMod","RandomChestModServerSystem", "HealthChangeEvent", self, self.OnHealthChangeEvent)
 
     #监听UI初始化
     def OnUIInitFinished(self,args):
@@ -63,9 +70,9 @@ class RandomChestModClientSystem(ClientSystem):
             self.uiNode.UpdateCountTime(args)
 
     #监听是否显示双倍图标logo
-    def OnVisibleDoubleScoreEvent(self,bool):
-        if self.uiNode != None:
-            self.uiNode.SetDoubleScoreLogoVisible(bool)
+    def OnVisibleDoubleScoreEvent(self,args):
+        if self.uiNode != None and self.localPlayerId in args:
+            self.uiNode.SetDoubleScoreLogoVisible(True)
 
     #监听排行榜事件
     def OnTopEvent(self,playerList):
@@ -91,14 +98,21 @@ class RandomChestModClientSystem(ClientSystem):
                 self.index = 0
 
     #监听分数值变化事件
-    def OnScoreChangeEvent(self,score):
-        if self.uiNode != None:
-            self.uiNode.UpdateScore(score)
+    def OnScoreChangeEvent(self,args):
+        if self.uiNode != None and args != None:
+            self.uiNode.UpdateScore(args[self.localPlayerId])
+            comp = factory.CreatePostProcess(self.levelId)
+            comp.SetEnableGaussianBlur(False)
 
     #监听改变攻击力事件
-    def OnAttackChangeEvent(self,attack):
+    def OnAttackChangeEvent(self,args):
         if self.uiNode != None:
-            self.uiNode.UpdateAttack(attack)
+            self.uiNode.UpdateAttack(args[self.localPlayerId])
+
+    #监听改变血量事件
+    def OnHealthChangeEvent(self,args):
+        if self.uiNode != None and args != None:
+            self.uiNode.UpdateHealth(args["maxHealth"][self.localPlayerId],args["health"][self.localPlayerId])
 
         
     def UnListenEvent(self):

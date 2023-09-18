@@ -40,12 +40,35 @@ class RandomChestModServerSystem(ServerSystem):
         self.name = "暂时未获取到地图名"
         self.notice = "暂时未获取到公告"
 
+        # #成就列表
+        # self.aNodeList = ["Node1"]
+        #         # 存储所有成就的目标，包括目标数量和目标击杀生物数量,可另外用文件存储，因为示例模板的成就数量少就直接写在同文件下了
+        # self.aNodeDetail = {
+        #     "Node1": {
+        #         "goalNumber" : 105,
+        #         "targetEntity":{
+        #             "score" : 105,
+        #         }
+        #     }
+        # }
+        # # 存储各个玩家各自的成就进度  eg. “玩家ID” : {"N1" : 4 , "N2" : 5}
+        # self.aPlayerProgressList = {}
+
+
+        #创建两个连接（获取和存储）
+        self.compCreateHttpByGet = factory.CreateHttp(self.levelId)
+        self.compCreateHttpBySet = factory.CreateHttp(self.levelId)
+
         #玩家列表
         self.playerList = []
         #双倍分数玩家列表
         self.playerDoubleScoreList = []
         #敲钟复制方块列表
         self.playerWealthBellList = []
+        #玩家最大额外生命值
+        self.playerMaxHealthDict = {}
+        #玩家额外生命值
+        self.playerHealthDict = {}
         #玩家分数词典
         self.playerScoreDict = {}
         #玩家攻击力词典
@@ -114,15 +137,6 @@ class RandomChestModServerSystem(ServerSystem):
 
         #方块过滤表
         self.blockFilterList = ["minecraft:wall_sign","minecraft:end_stone","minecraft:grass","minecraft:bell","tpkth:coalchangeblock"]
-        # #发货映射表(取消通过映射表发货，因为正式环境有奇怪的bug)
-        # self.sendGoodsRelationDict = {
-        #     "buySmallChest": self.buySmallChest,
-        #     "buyBigChest": self.buyBigChest,
-        #     "buyStaffChest": self.buyStaffChest,
-        #     "buyScoreMachine": self.buyScoreMachine,
-        #     "buyCommonBit": self.buyCommonBit,
-        #     "buyAlloyBit": self.buyAlloyBit,
-        # }
         
     #更改世界的属性值
     def InitWorldOptions(self):
@@ -130,7 +144,7 @@ class RandomChestModServerSystem(ServerSystem):
         self.compCreateGame = factory.CreateGame(self.levelId)
         self.compCreateGame.SetHurtCD(5)
         #设置实体上限
-        serverApi.SetEntityLimit(300)
+        serverApi.SetEntityLimit(200)
         #设置游戏难度
         self.compCreateGame.SetGameDifficulty(3)
         #设置游戏规则
@@ -180,10 +194,14 @@ class RandomChestModServerSystem(ServerSystem):
         #开始deop
         self.compCreateGame.AddRepeatedTimer(1.0,self.Deop)
 
-        #开始给周围宝箱命名
+        #轮询给周围宝箱命名
         self.compCreateGame.AddRepeatedTimer(5.0,self.NameAroundChest)
+        #轮询恢复额外生命值
+        self.compCreateGame.AddRepeatedTimer(10.0,self.AddPlayerHealthCycle)
         #轮询更新 C/S UI
         self.compCreateGame.AddRepeatedTimer(1.0,self.NotifyClientForUpdateUICycle)
+        #轮询上传玩家云数据（180s）
+        self.compCreateGame.AddRepeatedTimer(300.0,self.UpLoadPlayerScoreCycle)
         #轮询查询并发货
         self.compCreateGame.AddRepeatedTimer(30.0,self.ActionUserItemCycle)
 
@@ -200,6 +218,8 @@ class RandomChestModServerSystem(ServerSystem):
         self.ListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "DestroyBlockEvent", self, self.OnDestroyBlockEvent)
         self.ListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "ServerChatEvent", self, self.OnServerChatEvent)
         self.ListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "GameTypeChangedServerEvent", self, self.OnGameTypeChangedServerEvent)
+        self.ListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "PlayerRespawnEvent", self, self.OnPlayerRespawnEvent)
+        self.ListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "PlayerRespawnFinishServerEvent", self, self.OnPlayerRespawnFinishServerEvent)
     
     #退出监听
     def UnListenEvent(self):
@@ -213,7 +233,7 @@ class RandomChestModServerSystem(ServerSystem):
         self.UnListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "lobbyGoodBuySucServerEvent", self, self.OnlobbyGoodBuySucServerEvent)
         self.UnListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "DestroyBlockEvent", self, self.OnDestroyBlockEvent)
         self.UnListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "ServerChatEvent", self, self.OnServerChatEvent)
-        self.UnListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "GameTypeChangedServerEvent", self, self.OnGameTypeChangedServerEvent)
+        self.UnListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "PlayerRespawnFinishServerEvent", self, self.OnPlayerRespawnFinishServerEvent)
         
     def Destroy(self):
         self.UnListenEvent()
@@ -229,6 +249,12 @@ class RandomChestModServerSystem(ServerSystem):
         for playerId in self.playerList:
             self.ActionUserItem(playerId)
 
+    #轮询上传玩家云数据
+    def UpLoadPlayerScoreCycle(self):
+        if self.playerList != None:
+            for playerId in self.playerList:
+                self.UpLoadPlayerScore(playerId)
+
     #玩家进入联机大厅时
     def OnlobbyGoodBuySucServerEvent(self,args):
         #如果玩家购买商品(eid: 玩家实体id，buyItem: 商品ID)
@@ -243,8 +269,8 @@ class RandomChestModServerSystem(ServerSystem):
             self.GetPlayerScore(eid)
             #获取最新排行榜
             self.GetTop()
-            #初始化背包
-            self.GetPlayerData(eid)
+            # #初始化背包（已取消）
+            # self.GetPlayerData(eid)
             #获取地图信息
             self.GetInfoConfig()
             #获取玩家是否有双倍分数仪并自动添加
@@ -297,23 +323,60 @@ class RandomChestModServerSystem(ServerSystem):
         username = args["username"]
         playerId = args["playerId"]
         message = args["message"]
-        #作者后台命令
+        #作者后台功能
+        #使用命令 e.g. #say hello
         if username in self.whiteList and message[0] == "#":
             message = message.replace("#", "")
             self.compCreateCommand.SetCommand("/" + message,playerId)
             args["message"] = ""
-            args["cancel"]
+            args["cancel"] = True
             return
+        #获取附近的玩家id并显示对应的名字 e.g. %
+        elif username in self.whiteList and message[0] == "%":
+            compCreatePlayer = factory.CreatePlayer(playerId)
+            playerList = compCreatePlayer.GetRelevantPlayer(None)
+            compCreateMsg = factory.CreateMsg(playerId)
+
+            for player in playerList:
+                compCreateName = factory.CreateName(player)
+                playName = compCreateName.GetName()
+                compCreateMsg.NotifyOneMessage(playerId, player + " " + playName, "§e")
+
+        #需要输入玩家id才有效 e.g. @buyFreeChest 1292492939
         elif username in self.whiteList and message[0] == "@":
-            message = message.replace("@", "")
-            if message == "buyWealthBell":
-                self.buyWealthBell(playerId)
-            elif message == "buyScoreMachine":
-                self.buyScoreMachine(playerId)
+            dataList = message.replace("@", "").split(" ")
+            command = dataList[0]
+            receivePlayerId = dataList[1]
+
+            if command == "buySmallChest":
+                self.buySmallChest(receivePlayerId)
+            elif command == "buyMiddleChest":
+                self.buyMiddleChest(receivePlayerId)
+            elif command == "buyBigChest":
+                self.buyBigChest(receivePlayerId)
+            elif command == "buyStaffChest":
+                self.buyStaffChest(receivePlayerId)
+            elif command == "buyScoreMachine":
+                self.buyScoreMachine(receivePlayerId)
+            elif command == "buyCommonBit":
+                self.buyCommonBit(receivePlayerId)
+            elif command == "buyAlloyBit":
+                self.buyAlloyBit(receivePlayerId)
+            elif command == "buyWealthBell":
+                self.buyWealthBell(receivePlayerId)
+            elif command == "buyFreeChest":
+                self.buyFreeChest(receivePlayerId)
+            elif message == "buyBits":
+                self.buyBits(receivePlayerId)
+            elif message == "buyLockpick":
+                self.buyLockpick(receivePlayerId)
             args["message"] = ""
-            args["cancel"]
+            args["cancel"] = True
+
+            compCreateMsg = factory.CreateMsg(playerId)
+            compCreateMsg.NotifyOneMessage(playerId, "你已被赠送了道具，请接收! (如果该道具为增益类，请勿再次购买)", "§8")
+
             return
-        
         if message == "pvp 关" and self.pvp == True:
             self.pvp = False
 
@@ -373,14 +436,16 @@ class RandomChestModServerSystem(ServerSystem):
         #设置暂定默认值
         self.playerScoreDict[playerId] = -1
         self.playerAttackDict[playerId] = -1
+        self.playerMaxHealthDict[playerId] = -1
+        self.playerHealthDict[playerId] = -1
 
         if self.DEBUG:
             #获取玩家云分数并自动更新
             self.GetPlayerScore(playerId)
             #获取最新排行榜
             self.GetTop()
-            #初始化背包
-            self.GetPlayerData(playerId)
+            #初始化背包（已取消）
+            # self.GetPlayerData(playerId)
             #获取地图信息
             self.GetInfoConfig()
             #获取玩家是否有双倍分数仪并自动添加
@@ -398,8 +463,8 @@ class RandomChestModServerSystem(ServerSystem):
         playerId = args["playerId"]
         #上传云分数数据
         self.UpLoadPlayerScore(playerId)
-        #上传背包数据
-        self.UploadPlayerData(playerId)
+        #上传背包数据（已取消）
+        # self.UploadPlayerData(playerId)
 
          #删除玩家列表
         if playerId in self.playerList:
@@ -413,6 +478,14 @@ class RandomChestModServerSystem(ServerSystem):
         if playerId in self.playerAttackDict:
             del self.playerAttackDict[playerId]
 
+        #删除该玩家最大额外血量词典
+        if playerId in self.playerMaxHealthDict:
+            del self.playerMaxHealthDict[playerId]
+
+        #删除该玩家额外血量词典
+        if playerId in self.playerHealthDict:
+            del self.playerHealthDict[playerId]
+
         #删除玩家双倍分数列表
         if playerId in self.playerDoubleScoreList:
             self.playerDoubleScoreList.remove(playerId)
@@ -424,8 +497,7 @@ class RandomChestModServerSystem(ServerSystem):
     #查询并执行发货指令
     def ActionUserItem(self,playerId):
         #查询未发货的订单
-        compCreateHttp = factory.CreateHttp(self.levelId)
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpByGet.GetPlayerUid(playerId)
         def cb(data):
             if data:
                 ordersDict = data["entity"]["orders"]
@@ -434,6 +506,8 @@ class RandomChestModServerSystem(ServerSystem):
                     #根据订单请求实现发货
                     if order["cmd"] == "buySmallChest":
                         self.buySmallChest(playerId)
+                    elif order["cmd"] == "buyMiddleChest":
+                        self.buyMiddleChest(playerId)
                     elif order["cmd"] == "buyBigChest":
                         self.buyBigChest(playerId)
                     elif order["cmd"] == "buyStaffChest":
@@ -448,16 +522,21 @@ class RandomChestModServerSystem(ServerSystem):
                         self.buyWealthBell(playerId)
                     elif order["cmd"] == "buyFreeChest":
                         self.buyFreeChest(playerId)
+                    elif order["cmd"] == "buyBits":
+                        self.buyBits(playerId)
+                    elif order["cmd"] == "buyLockpick":
+                        self.buyLockpick(playerId)
+                    compCreateMsg = factory.CreateMsg(playerId)
+                    compCreateMsg.NotifyOneMessage(playerId, "感谢你购买本商品，如有任何疑惑请在评论区反馈! ", "§8")
                     #标记已发货（不管是否成功都直接标记为已发货）
                     self.TagUserItem(playerId,order["order_id"])
             else:
                 print ("查询订单失败")
-        compCreateHttp.QueryLobbyUserItem(cb, uid)
+        self.compCreateHttpByGet.QueryLobbyUserItem(cb, uid)
 
     #标记已发货
     def TagUserItem(self,playerId,orderId):
-        compCreateHttp = factory.CreateHttp(self.levelId)
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpBySet.GetPlayerUid(playerId)
         def cb(data):
             if data:
                 print("标记已发货成功")
@@ -470,11 +549,13 @@ class RandomChestModServerSystem(ServerSystem):
                     "value": orderId
                 }
             ]
-        compCreateHttp.LobbySetStorageAndUserItem(cb, uid, orderId, getter)
+        self.compCreateHttpBySet.LobbySetStorageAndUserItem(cb, uid, orderId, getter)
 
     #实现指令: 免费宝箱
     def buyFreeChest(self,playerId):
         print("有玩家实现了指令: 免费宝箱")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 免费宝箱", "§6")
         compCreateItem = factory.CreateItem(playerId)
         itemDict = {'itemName': 'tpkth:commonChestCall','count': 1,}
         compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
@@ -482,13 +563,28 @@ class RandomChestModServerSystem(ServerSystem):
     #实现指令: 购买-宝箱魔盒（小）
     def buySmallChest(self,playerId):
         print("有玩家实现了指令: 宝箱魔盒小")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 宝箱魔盒（小）", "§6")
         compCreateItem = factory.CreateItem(playerId)
         itemDict = {'itemName': 'tpkth:coalChestCall','count': 4,}
+        compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
+
+    #实现指令: 购买-宝箱魔盒（中）
+    def buyMiddleChest(self,playerId):
+        print("有玩家实现了指令: 宝箱魔盒中")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 宝箱魔盒（中）", "§6")
+        compCreateItem = factory.CreateItem(playerId)
+        itemDict = {'itemName': 'tpkth:mummyChestCall','count': 2,}
+        compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
+        itemDict = {'itemName': 'tpkth:lavaChestCall','count': 2,}
         compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
 
     #实现指令: 购买-宝箱魔盒（大）
     def buyBigChest(self,playerId):
         print("有玩家实现了指令: 宝箱魔盒大")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 宝箱魔盒（大）", "§6")
         compCreateItem = factory.CreateItem(playerId)
         itemDict = {'itemName': 'tpkth:healthChestCall','count': 2,}
         compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
@@ -500,6 +596,8 @@ class RandomChestModServerSystem(ServerSystem):
     #实现指令: 魔杖礼盒
     def buyStaffChest(self,playerId):
         print("有玩家实现了指令: 魔杖礼盒")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 魔杖礼盒", "§6")
         compCreateItem = factory.CreateItem(playerId)
         itemDict = {'itemName': 'tpkth:enderStaff','count': 1,}
         compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
@@ -511,6 +609,8 @@ class RandomChestModServerSystem(ServerSystem):
     #实现指令: 普通钻头
     def buyCommonBit(self,playerId):
         print("有玩家实现了指令: 普通钻头")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 普通钻头", "§6")
         compCreateItem = factory.CreateItem(playerId)
         itemDict = {'itemName': 'tpkth:commonBit','count': 1,}
         compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
@@ -518,13 +618,37 @@ class RandomChestModServerSystem(ServerSystem):
     #实现指令: 合金钻头
     def buyAlloyBit(self,playerId):
         print("有玩家实现了指令: 合金钻头")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 合金钻头", "§6")
         compCreateItem = factory.CreateItem(playerId)
         itemDict = {'itemName': 'tpkth:AlloyBit','count': 1,}
+        compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
+
+    #实现指令: 钻头套装
+    def buyBits(self,playerId):
+        print("有玩家实现了指令: 钻头套装")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 钻头套装", "§6")
+        compCreateItem = factory.CreateItem(playerId)
+        itemDict = {'itemName': 'tpkth:CommonBit','count': 1,}
+        compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
+        itemDict = {'itemName': 'tpkth:AlloyBit','count': 1,}
+        compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
+        
+    #实现指令: 开锁器
+    def buyLockpick(self,playerId):
+        print("有玩家实现了指令: 开锁器")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 开锁器", "§6")
+        compCreateItem = factory.CreateItem(playerId)
+        itemDict = {'itemName': 'tpkth:lockpick','count': 1,}
         compCreateItem.SpawnItemToPlayerInv(itemDict, playerId)
 
     #实现指令: 双倍分数仪
     def buyScoreMachine(self,playerId):
         print("有玩家实现了指令: 双倍分数仪")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了: 双倍分数仪", "§6")
         #存储进云数据
         self.StorageUserItem(playerId,"scoreMachine")
         #加入双倍分数列表
@@ -533,6 +657,8 @@ class RandomChestModServerSystem(ServerSystem):
     #实现指令: 财富之钟
     def buyWealthBell(self,playerId):
         print("有玩家实现了指令: 财富之钟")
+        compCreateMsg = factory.CreateMsg(playerId)
+        compCreateMsg.NotifyOneMessage(playerId, "恭喜你获得了： 财富之钟", "§6")
         #存储进云数据
         self.StorageUserItem(playerId,"bell")
         #加入双倍分数列表
@@ -620,7 +746,6 @@ class RandomChestModServerSystem(ServerSystem):
     #获取云端地图信息配置数据
     def GetInfoConfig(self):
         print("GetInfoConfig...")
-        compCreateHttp = factory.CreateHttp(self.levelId)
 
         def cb(data):
             if data:
@@ -631,7 +756,7 @@ class RandomChestModServerSystem(ServerSystem):
             else:
                 print ("getConfig failed")
         keys = ["op_config"]
-        compCreateHttp.LobbyGetStorage(cb, 0, keys)
+        self.compCreateHttpByGet.LobbyGetStorage(cb, 0, keys)
 
         if self.DEBUG:
             data = {'message':'op_configMessage','code':0,'details':'','entity':{'data':[{'version':4,'key':'op_config','value':{'notice':'欢迎游玩本地图，如有任何疑惑请在我们的社交媒体反馈','name':'随机方块空岛生存[无限宝箱版]','cdk':{'spawnstudio520':'buyAlloyBit','noruncle886':'buyWealthBell','firestar520':'buyCommonBit','fxhuo666':'buyScoreMachine','huobao888':'buyCommonBit','fxshadou666':'buyCommonBit'}}}]}}
@@ -640,20 +765,20 @@ class RandomChestModServerSystem(ServerSystem):
     #从云获取最高的三条数据（每次获取并自动通知客户端）
     def GetTop(self):
         print("GetTop...")
-        compCreateHttp = factory.CreateHttp(self.levelId)
-
         def cb(data):
             if data:
                 newData = data["entity"]["data"]
                 #通知all客户端UI更新排行榜
                 #替换当前排行榜数据
                 self.topDict = newData
+                #通知客户端UI更新排行榜
+                self.NotifyToMultiClients(self.playerList,"TopEvent", self.topDict)
                 print ("get top ok")
             else:
                 print ("get top failed")
         # 获取money从大到小排序第1到第3的数据
         # 这个函数就算是本地也有回调数据，只不过是None（也可能是没有配置排序key的原因）
-        compCreateHttp.LobbyGetStorageBySort(cb, "new_score", False, 0, 5)
+        self.compCreateHttpByGet.LobbyGetStorageBySort(cb, "new_score", False, 0, 5)
 
         #本地数据模拟
         if self.DEBUG:
@@ -663,8 +788,7 @@ class RandomChestModServerSystem(ServerSystem):
     #从云获取玩家分数
     def GetPlayerScore(self,playerId):
         print("checking")
-        compCreateHttp = factory.CreateHttp(self.levelId)
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpByGet.GetPlayerUid(playerId)
 
         def cb(data):
             if data:
@@ -675,7 +799,7 @@ class RandomChestModServerSystem(ServerSystem):
             else:
                 print("get score failed from cloud")
         keys = ["new_score"]
-        compCreateHttp.LobbyGetStorage(cb, uid, keys)
+        self.compCreateHttpByGet.LobbyGetStorage(cb, uid, keys)
 
         #本地数据模拟
         if self.DEBUG:
@@ -685,14 +809,13 @@ class RandomChestModServerSystem(ServerSystem):
     #获取用户钻头并添加进背包且标记
     def GetStorageBit(self,playerId,bitName):
         print("GetStorageBit...")
-        compCreateHttp = factory.CreateHttp(self.levelId)
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpByGet.GetPlayerUid(playerId)
         #定义空数组准备收集记录
         newDataVal = []
         def cb(data):
             if data:
                 newData = { i["key"]: i["value"] for i in data["entity"]["data"] }
-                if newData != None and newData[bitName] != None:
+                if newData != None and newData[bitName] != None and bitName in newData:
                     newDataVal = json.loads(newData[bitName])
                     #如果已在本图发放过直接不发
                     if newDataVal["levelId"] == self.levelId and newDataVal["tag"] == True:
@@ -720,7 +843,7 @@ class RandomChestModServerSystem(ServerSystem):
                     "value": valJSON
                 }
             ]
-        compCreateHttp.LobbySetStorageAndUserItem(cb, uid, None, getter)
+        self.compCreateHttpByGet.LobbySetStorageAndUserItem(cb, uid, None, getter)
 
         #本地数据模拟
         if self.DEBUG:
@@ -745,21 +868,20 @@ class RandomChestModServerSystem(ServerSystem):
     #获取用户财富之钟并添加进列表
     def GetStorageBell(self,playerId):
         print("GetStorageBell...")
-        compCreateHttp = factory.CreateHttp(self.levelId)
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpByGet.GetPlayerUid(playerId)
         def cb(data):
             if data:
                 newData = { i["key"]: i["value"] for i in data["entity"]["data"] }
                 if newData == None:
                     print("get bell failed because the data's no relative data about bell")
                     return
-                if newData != None and newData["bell"] != None and newData["bell"] == True:
+                if "bell" in newData and newData != None and newData["bell"] != None and newData["bell"] == True:
                     self.playerWealthBellList.append(playerId)
                     print("get bell succeeded")
             else:
                 print("get bell failed")
         keys = ["bell"]
-        compCreateHttp.LobbyGetStorage(cb, uid, keys)
+        self.compCreateHttpByGet.LobbyGetStorage(cb, uid, keys)
 
         #本地数据模拟
         if self.DEBUG:
@@ -769,20 +891,19 @@ class RandomChestModServerSystem(ServerSystem):
     #获取用户分数仪并添加进列表
     def GetStorageScoreMachine(self,playerId):
         print("GetStorageScoreMachine...")
-        compCreateHttp = factory.CreateHttp(self.levelId)
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpByGet.GetPlayerUid(playerId)
 
         def cb(data):
             print(data)
             if data:
                 newData = { i["key"]: i["value"] for i in data["entity"]["data"] }
-                if newData["scoreMachine"] != None and newData["scoreMachine"] == True:
+                if "scoreMachine" in newData and newData["scoreMachine"] != None and newData["scoreMachine"] == True:
                     self.playerDoubleScoreList.append(playerId)
                     print("get scoreMachine succeeded")
             else:
                 print("get data failed")
         keys = ["scoreMachine"]
-        compCreateHttp.LobbyGetStorage(cb, uid, keys)
+        self.compCreateHttpByGet.LobbyGetStorage(cb, uid, keys)
 
         #本地数据模拟
         if self.DEBUG:
@@ -792,10 +913,8 @@ class RandomChestModServerSystem(ServerSystem):
     #存储用户云增益(key: itemName; vlaue: True/False)
     def StorageUserItem(self,playerId,itemName):
         print("StorageUserItem...")
-        #创建链接
-        compCreateHttp = factory.CreateHttp(self.levelId)
         #获取玩家uid
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpBySet.GetPlayerUid(playerId)
         def callback(data):
             if data:
                 #更新本地数据
@@ -811,14 +930,12 @@ class RandomChestModServerSystem(ServerSystem):
                     "value": True
                 }
             ]
-        compCreateHttp.LobbySetStorageAndUserItem(callback, uid, None, getter)
+        self.compCreateHttpBySet.LobbySetStorageAndUserItem(callback, uid, None, getter)
 
     #上传玩家云分数
     def UpLoadPlayerScore(self,playerId):
         print("UpLoadPlayerScore...")
-        #创建链接
-        compCreateHttp = factory.CreateHttp(self.levelId)
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpByGet.GetPlayerUid(playerId)
 
         def callback(data):
             if data:
@@ -836,28 +953,78 @@ class RandomChestModServerSystem(ServerSystem):
                         "value": self.playerScoreDict[playerId]
                     }
                 ]
-        compCreateHttp.LobbySetStorageAndUserItem(callback, uid, None, getter)
+        self.compCreateHttpByGet.LobbySetStorageAndUserItem(callback, uid, None, getter)
 
+    #更新所有玩家的属性
+    def UpdateAllPlayerAttr(self):
+        for playerId in self.playerList:
+            #更新玩家攻击力（传分数自动换算攻击力）
+            if playerId in self.playerScoreDict:
+                    self.playerAttackDict[playerId] = self.playerScoreDict[playerId] / 15
+            #更新玩家生命值（传分数自动换算生命值）
+            if playerId in self.playerMaxHealthDict and playerId in self.playerHealthDict:
+                #如果为-1需要重新更新额外生命值
+                if self.playerHealthDict[playerId] == -1:
+                    self.playerHealthDict[playerId] = self.playerMaxHealthDict[playerId]
+                self.playerMaxHealthDict[playerId] = self.playerScoreDict[playerId] / 25
+    
+    #恢复当前生命(10s一次)
+    def AddPlayerHealthCycle(self):
+        if self.playerMaxHealthDict != None and self.playerHealthDict != None:
+            for playerId in self.playerMaxHealthDict and self.playerHealthDict:
+                if self.playerHealthDict[playerId] < self.playerMaxHealthDict[playerId]:
+                    self.playerHealthDict[playerId] = self.playerHealthDict[playerId] + 1
+
+
+    #循环通知客户端
     def NotifyClientForUpdateUICycle(self):
+        #更新所有玩家的属性
+        self.UpdateAllPlayerAttr()
+
+        #改变名字分数
         for playerId in self.playerScoreDict:
-            #改变名字分数
             compCreateName = factory.CreateName(playerId)
             compCreateName.SetPlayerPrefixAndSuffixName("",serverApi.GenerateColor('RED')," - 分数: " + str(self.playerScoreDict[playerId]),serverApi.GenerateColor('GRAY'))
+        
+        if self.playerList != None and self.playerScoreDict != None and self.roomCountdown != None:
+            #通知客户端UI更新分数值
+            self.NotifyToMultiClients(self.playerList,"ScoreChangeEvent", self.playerScoreDict)
             #通知客户端展示新进度条
             self.NotifyToMultiClients(self.playerList,"ProgressBarChangeEvent", self.roomCountdown)
-            #通知客户端UI更新分数值
-            self.NotifyToClient(playerId,"ScoreChangeEvent", self.playerScoreDict[playerId])
-            #更新玩家攻击力（传分数自动换算攻击力）
-            if self.playerScoreDict[playerId] != -1:
-                self.playerAttackDict[playerId] = self.playerScoreDict[playerId] / 15
-            if playerId in self.playerAttackDict:
-                #通知客户端UI更新伤害值
-                self.NotifyToClient(playerId,"AttackChangeEvent", self.playerAttackDict[playerId])
-            if playerId in self.playerDoubleScoreList:
-                #通知客户端UI更新图标
-                self.NotifyToClient(playerId,"VisibleDoubleScoreEvent", True)
-            #通知客户端UI更新排行榜
-            self.NotifyToMultiClients(self.playerList,"TopEvent", self.topDict)
+
+        if self.playerAttackDict != None:
+            #通知客户端UI更新伤害值
+            self.NotifyToMultiClients(self.playerList,"AttackChangeEvent", self.playerAttackDict)
+
+        if self.playerMaxHealthDict != None and self.playerHealthDict != None :
+            #通知客户端UI更新额外生命值
+            args = {
+                "maxHealth": self.playerMaxHealthDict,
+                "health": self.playerHealthDict
+                }
+            self.NotifyToMultiClients(self.playerList,"HealthChangeEvent", args)
+
+        if self.playerDoubleScoreList != None:
+            #通知客户端UI更新图标
+            self.NotifyToMultiClients(self.playerDoubleScoreList,"VisibleDoubleScoreEvent", self.playerDoubleScoreList)
+
+    #玩家复活时
+    def OnPlayerRespawnEvent(self,args):
+        playerId = args["id"]
+        #重置血量
+        if playerId in self.playerMaxHealthDict and playerId in self.playerHealthDict:
+            self.playerHealthDict[playerId] = self.playerMaxHealthDict[playerId]
+
+    #玩家复活完毕
+    def OnPlayerRespawnFinishServerEvent(self,args):
+        playerId = args["playerId"]
+        #如果分数为-1的玩家复活则提醒他
+        if self.playerScoreDict[playerId] == -1:
+            compCreateMsg = factory.CreateMsg(playerId)
+            compCreateMsg.NotifyOneMessage(playerId, "§a通过击败宝箱怪提升分数增长自身的属性,快去试试吧! §7如果你被欺负了可输入\"pvp 关\"来关闭pvp功能", "§a")
+        self.compCreateCommand.SetCommand("/effect @p resistance 5 255 True",playerId)
+        #出生点保护效果
+        self.compCreateCommand.SetCommand("/effect @p resistance 5 255 True",playerId)
 
     #玩家点击方块时
     def OnServerBlockUseEvent(self,args):
@@ -894,12 +1061,11 @@ class RandomChestModServerSystem(ServerSystem):
 
             if isSneaking == True:
                 itemDict['count'] = 5
-                compCreateCommand = factory.CreateCommand(self.levelId)
-                compCreateCommand.SetCommand("/playsound note.chime @s",playerId)
-                compCreateCommand.SetCommand("/playsound note.chime @s 0",playerId)
-                compCreateCommand.SetCommand("/playsound note.chime @s 1",playerId)
-                compCreateCommand.SetCommand("/playsound note.chime @s 2",playerId)
-                compCreateCommand.SetCommand("/playsound note.chime @s 3",playerId)
+                self.compCreateCommand.SetCommand("/playsound note.chime @s",playerId)
+                self.compCreateCommand.SetCommand("/playsound note.chime @s 0",playerId)
+                self.compCreateCommand.SetCommand("/playsound note.chime @s 1",playerId)
+                self.compCreateCommand.SetCommand("/playsound note.chime @s 2",playerId)
+                self.compCreateCommand.SetCommand("/playsound note.chime @s 3",playerId)
 
             self.CreateEngineItemEntity(itemDict, args["dimensionId"], (args["x"],args["y"],args["z"]))
 
@@ -980,6 +1146,29 @@ class RandomChestModServerSystem(ServerSystem):
 
     #玩家攻击实体时
     def OnPlayerAttackEntityEvent(self,args):
+        # #todo
+        # compCreateAchievement = factory.CreateAchievement(self.levelId)
+        # def cb(data):
+        #     if data:
+        #         print (data["entity"])
+        #     else:
+        #         print ("获取数据失败")
+        # compCreateAchievement.LobbySetAchievementStorage(cb, args["playerId"], "Node1", 1)
+        
+        # if self.DEBUG:
+        #     data = {
+        #         "code": 5,
+        #         "message": "操作冲突",
+        #         "details": "",
+        #         "entity": {
+        #             "completed_at": 0,
+        #             "extra": "",
+        #             "progress": 1,
+        #             "version": 1
+        #         }
+        #     }
+        #     cb(data)
+        
         #获取玩家id
         playerId = args["playerId"]
         #获取受击者id
@@ -989,45 +1178,46 @@ class RandomChestModServerSystem(ServerSystem):
         compCreateItem = factory.CreateItem(playerId)
         itemDict = compCreateItem.GetPlayerItem(serverApi.GetMinecraftEnum().ItemPosType.CARRIED)
 
-        #烈焰剑
-        if itemDict != None and itemDict["newItemName"] == "tpkth:firesword":
-            #点燃实体
-            compCreateAttr = factory.CreateAttr(victimId)
-            compCreateAttr.SetEntityOnFire(2, 2)
+        if itemDict != None:
+            #烈焰剑
+            if itemDict["newItemName"] == "tpkth:firesword":
+                #点燃实体
+                compCreateAttr = factory.CreateAttr(victimId)
+                compCreateAttr.SetEntityOnFire(2, 2)
 
-        #发光鱿鱼剑
-        elif itemDict != None and itemDict["newItemName"] == "tpkth:lightsquidsword":
-            #给自己增加5秒夜视
-            compCreateEffect = factory.CreateEffect(playerId)
-            compCreateEffect.AddEffectToEntity("night_vision", 5, 0, False)
+            #发光鱿鱼剑
+            elif itemDict["newItemName"] == "tpkth:lightsquidsword":
+                #给自己增加5秒夜视
+                compCreateEffect = factory.CreateEffect(playerId)
+                compCreateEffect.AddEffectToEntity("night_vision", 5, 0, False)
 
-        #毒刃
-        elif itemDict != None and itemDict["newItemName"] == "tpkth:poisonsword":
-            #给对手挂上毒
-            compCreateEffect = factory.CreateEffect(victimId)
-            compCreateEffect.AddEffectToEntity("poison", 2, 5, False)
+            #毒刃
+            elif itemDict["newItemName"] == "tpkth:poisonsword":
+                #给对手挂上毒
+                compCreateEffect = factory.CreateEffect(victimId)
+                compCreateEffect.AddEffectToEntity("poison", 2, 5, False)
 
-        #彩虹激光刃
-        elif itemDict != None and itemDict["newItemName"] == "tpkth:rainbowrasersword":
-            #加速时间流逝
-            self.compCreateCommand.SetCommand("/time add 50",playerId)
+            #彩虹激光刃
+            elif itemDict["newItemName"] == "tpkth:rainbowrasersword":
+                #加速时间流逝
+                self.compCreateCommand.SetCommand("/time add 75",playerId)
 
-        #神之波塞冬
-        elif itemDict != None and itemDict["newItemName"] == "tpkth:poseidonsword":
-            #水肺
-            compCreateEffect = factory.CreateEffect(playerId)
-            compCreateEffect.AddEffectToEntity("water_breathing", 30, 5, False)
+            #神之波塞冬
+            elif itemDict["newItemName"] == "tpkth:poseidonsword":
+                #水肺
+                compCreateEffect = factory.CreateEffect(playerId)
+                compCreateEffect.AddEffectToEntity("water_breathing", 30, 5, False)
 
-        #神之凋零
-        elif itemDict != None and itemDict["newItemName"] == "tpkth:poseidonsword":
-            #凋零
-            compCreateEffect = factory.CreateEffect(victimId)
-            compCreateEffect.AddEffectToEntity("wither", 5, 5, False)
+            #神之凋零
+            elif itemDict["newItemName"] == "tpkth:withersword":
+                #凋零
+                compCreateEffect = factory.CreateEffect(victimId)
+                compCreateEffect.AddEffectToEntity("wither", 5, 5, False)
 
         #获取类系
         compCreateAttr = factory.CreateAttr(victimId)
         familyList = compCreateAttr.GetTypeFamily()
-        #如果为npc则通知客户端触发相应声音
+        #如果为npc则触发相应声音
         if "npc" in familyList:
             #播放音效
             self.compCreateCommand.SetCommand("/playsound random.anvil_land @p ~~~ 1 3",playerId)
@@ -1053,15 +1243,35 @@ class RandomChestModServerSystem(ServerSystem):
 
     #实体受伤前事件
     def OnActuallyHurtServerEvent(self,args):
-        #校验是否为玩家
-        playerId = args["srcId"]
-        compCreateEngineType = factory.CreateEngineType(playerId)
-        entityType = compCreateEngineType.GetEngineType()
         EntityTypeEnum = serverApi.GetMinecraftEnum().EntityType
+
+        #校验伤害源是否为玩家
+        srcPlayerId = args["srcId"]
+        compCreateEngineType = factory.CreateEngineType(srcPlayerId)
+        entityType = compCreateEngineType.GetEngineType()
         damage = args["damage"]
         if entityType & entityType == EntityTypeEnum.Player:
             #是的话修改伤害值
-            args["damage"] = damage + self.playerAttackDict[playerId]
+            args["damage"] = damage + self.playerAttackDict[srcPlayerId]
+
+        #校验被伤害是否为玩家
+        playerId = args["entityId"]
+        compCreateEngineType = factory.CreateEngineType(playerId)
+        playerIdType = compCreateEngineType.GetEngineType()
+        #获取伤害值
+        damage = args["damage"]
+        #从额外生命值里扣
+        if playerIdType & playerIdType == EntityTypeEnum.Player and playerId in self.playerMaxHealthDict and playerId in self.playerHealthDict:
+            actuallyDamage = self.playerHealthDict[playerId] - damage
+            if actuallyDamage >= 0:
+                self.playerHealthDict[playerId] = actuallyDamage
+                args["damage"] = 0
+            else:
+                damage = args["damage"] + abs(actuallyDamage)
+                self.playerHealthDict[playerId] = 0
+                args["damage"] = damage
+        return
+
     
     #当玩家已经破坏了方块
     def OnDestroyBlockEvent(self,args):
@@ -1087,9 +1297,7 @@ class RandomChestModServerSystem(ServerSystem):
     #从云获取玩家数据并设置
     def GetPlayerData(self,playerId):
         print("GetPlayerData...")
-
-        compCreateHttp = factory.CreateHttp(self.levelId)
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpByGet.GetPlayerUid(playerId)
         def cb(data):
             print("GetPlayerData")
             print(data)
@@ -1098,24 +1306,26 @@ class RandomChestModServerSystem(ServerSystem):
 
                 dict_obj = newData[0]
 
-                inventoryDict = json.loads(dict_obj['value'])['inventoryItems']
-                armorDict = json.loads(dict_obj['value'])['armorITems']
-                exp = json.loads(dict_obj['value'])['exp'] 
+                if newData != None:
+                    inventoryDict = json.loads(dict_obj['value'])['inventoryItems']
+                    armorDict = json.loads(dict_obj['value'])['armorItems']
+                    offhandItem = json.loads(dict_obj['value'])['offhandItem']
+                    exp = json.loads(dict_obj['value'])['exp'] 
 
                 #修改玩家的物品数据
-                self.SetPlayerData(playerId,inventoryDict,armorDict,exp)
+                self.SetPlayerData(playerId,inventoryDict,armorDict,offhandItem,exp)
                 print("GetPlayerData succeeded")
             else:
                 print ("GetPlayerData failed")
         keys = ["bag"]
-        compCreateHttp.LobbyGetStorage(cb, uid, keys)
+        self.compCreateHttpByGet.LobbyGetStorage(cb, uid, keys)
 
         if self.DEBUG:
-            data = {'message': 'GetStorageBell', 'code': 0, 'details': '', 'entity': {'data': [{'version': 3, 'key': 'bag', 'value': '{"armorITems": [null, null, null, null], "exp": 10000, "inventoryItems": [{"count": 14, "newItemName": "minecraft:dirt", "enchantData": [], "durability": 0, "itemId": 3, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:dirt", "auxValue": 0, "showInHand": true}, {"count": 1, "newItemName": "minecraft:yellow_flower", "enchantData": [], "durability": 0, "itemId": 37, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:yellow_flower", "auxValue": 0, "showInHand": true}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]}'}]}}
+            data = {'message': 'mm', 'code': 0, 'details': '', 'entity': {'data': [{'version': 13, 'key': 'bag', 'value': '{"armorItems": [{"count": 1, "newItemName": "minecraft:turtle_helmet", "enchantData": [], "durability": 275, "itemId": 469, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:turtle_helmet", "auxValue": 0, "showInHand": true}, {"count": 1, "newItemName": "minecraft:elytra", "enchantData": [], "durability": 432, "itemId": 444, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:elytra", "auxValue": 0, "showInHand": true}, null, null], "exp": 0, "offhandItem": [{"count": 1, "newItemName": "minecraft:totem_of_undying", "enchantData": [], "durability": 0, "itemId": 450, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:totem", "auxValue": 0, "showInHand": true}], "inventoryItems": [{"count": 12, "newItemName": "minecraft:cobbled_deepslate_stairs", "enchantData": [], "durability": 0, "itemId": -381, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:cobbled_deepslate_stairs", "auxValue": 0, "showInHand": true}, null, null, null, null, {"count": 1, "newItemName": "minecraft:trident", "enchantData": [], "durability": 250, "itemId": 455, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:trident", "auxValue": 0, "showInHand": true}, {"count": 1, "newItemName": "minecraft:elytra", "enchantData": [], "durability": 432, "itemId": 444, "customTips": "", "extraId": "", "newAuxValue": 0, "modEnchantData": [], "modId": "", "modItemId": "", "itemName": "minecraft:elytra", "auxValue": 0, "showInHand": true}, null, null, null, null, null, null, null, null, null, null,null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]}'}]}}
             cb(data)
         
     #设置玩家数据(物品栏，盔甲栏，经验值)
-    def SetPlayerData(self,playerId,inventoryDict,armorDict,exp):
+    def SetPlayerData(self,playerId,inventoryDict,armorDict,offhandDict,exp):
         compCreateItem = factory.CreateItem(playerId)
         itemsDictMap = {}
         index = 0
@@ -1137,34 +1347,44 @@ class RandomChestModServerSystem(ServerSystem):
             index = index + 1
         compCreateItem.SetPlayerAllItems(itemsDictMap)
 
+        #清空
+        itemsDictMap = {}
+
+        print(offhandDict)
+        #副手
+        for item in offhandDict:
+            itemsDictMap[(serverApi.GetMinecraftEnum().ItemPosType.OFFHAND, 0)] = item
+        compCreateItem.SetPlayerAllItems(itemsDictMap)
+
         #设置经验
         compCreateExp = factory.CreateExp(playerId)
         compCreateExp.AddPlayerExperience(exp)
 
-    #上传玩家数据上云
+    #上传玩家数据到云
     def UploadPlayerData(self,playerId):
         print("SavePlayerData...")
         compCreateItem = factory.CreateItem(playerId)
         #背包物品栏
         inventoryItems = compCreateItem.GetPlayerAllItems(serverApi.GetMinecraftEnum().ItemPosType.INVENTORY)
+        #副手
+        offhandItem = compCreateItem.GetPlayerAllItems(serverApi.GetMinecraftEnum().ItemPosType.OFFHAND)
         #盔甲栏
-        armorITems = compCreateItem.GetPlayerAllItems(serverApi.GetMinecraftEnum().ItemPosType.ARMOR)
+        armorItems = compCreateItem.GetPlayerAllItems(serverApi.GetMinecraftEnum().ItemPosType.ARMOR)
         #获取经验
         compCreateExp = factory.CreateExp(playerId)
         exp = compCreateExp.GetPlayerTotalExp()
         
         bagList = {
                     "inventoryItems":inventoryItems,
-                    "armorITems":armorITems,
+                    "armorItems":armorItems,
+                    "offhandItem":offhandItem,
                     "exp":exp,
                 }
 
         bagJSON = json.dumps(bagList)
 
-        #创建链接
-        compCreateHttp = factory.CreateHttp(self.levelId)
         #获取玩家uid
-        uid = compCreateHttp.GetPlayerUid(playerId)
+        uid = self.compCreateHttpBySet.GetPlayerUid(playerId)
         def callback(data):
             if data:
                 print("SavePlayerData succeeded")
@@ -1177,4 +1397,4 @@ class RandomChestModServerSystem(ServerSystem):
                     "value": bagJSON
                 }
             ]
-        compCreateHttp.LobbySetStorageAndUserItem(callback, uid, None, getter)
+        self.compCreateHttpBySet.LobbySetStorageAndUserItem(callback, uid, None, getter)
